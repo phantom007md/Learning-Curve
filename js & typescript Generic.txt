@@ -1,0 +1,59 @@
+typescript var types:
+
+number	
+string	
+void	
+null	
+undefined
+number[]   -- number array
+
+sample: var identifier:type = value ;
+	var foo:string = "sometext"
+
+
+
+
+Union Type :gives programs the ability to combine one or two types
+	var val:string|number 
+		val can get values with type string or number
+
+	function samp(name:string|string[]) { 
+
+
+
+Interface is a syntax structure for objects and classes in TS and make rules which a class must follow.
+interface IPerson { 
+   firstName:string, 
+   lastName:string, 
+   sayHi: ()=>string 
+} 
+
+var customer:IPerson = { 
+   firstName:"Tom",
+   lastName:"Hanks", 
+   sayHi: ():string =>{return "Hi there"} 
+} 
+	if any props or methods are lost in the class witch was declared as needed in the interface it will  cuz an error.
+
+function(p1:IPerson,p2)
+
+
+----------------------Basic JS-----------------------------
+
+if oneline : boolian ? true statement : false statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

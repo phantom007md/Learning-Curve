@@ -1,0 +1,13 @@
+(DOM) is a programming interface for HTML and XML documents.
+DOM is a structured representation of the document defines a way that the document can be accessed from programs and can be edited.
+DOM is a structured group of nodes and objects that have properties and methods.(Parsed by a language)and getting used by JS.
+
+A Web page is a document can be shown as HTML Surce or Graphical.DOM provides another way to manipulate the same Document.
+The DOM is a fully object-oriented representation of the web page, and it can be modified with a scripting language such as JavaScript.
+
+All of the properties, methods, and events available for manipulating and creating web pages are organized into objects.
+the document object that represents the document itself.
+
+JavaScript uses the DOM to access its nodes and treet to the DOM and its node as objecs and access.
+DOM parts like tages, text, etc can all be accessed and manipulated using the DOM and a scripting language like JavaScript.
+

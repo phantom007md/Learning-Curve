@@ -1,0 +1,12 @@
+What is even more exciting however is the functionality built on top of the core JavaScript language.
+So-called Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.
+
+HTML CSS JavaScript are compiled in a browser engine and we see the input.
+the code and the content comes from the controller and we can see it as a pure code or an graphical output converted by the browser itsself.
+
+The JavaScript is executed  by the browser's JavaScript engine, after the HTML and CSS have been assembled and put together into a web page
+
+You might hear the terms interpreted and compiled in the context of programming. JavaScript is an interpreted language — the code is run 
+from top to bottom and the result of running the code is immediately returned. You don't have to transform the code into a different form before the browser runs it.
+
+Compiled languages should be compiled to assembly before excuted in the machine

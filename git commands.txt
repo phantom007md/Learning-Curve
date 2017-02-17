@@ -1,0 +1,180 @@
+git is not working with the file its self its working with the content in it.
+
+git init					initialzing the git repo
+
+git status                              	get the status of the workflow
+
+git log						get the commit log
+
+git log branchName				get the commit log of the writen branchName		        	
+
+git checkout -- filename           		checkout the file in the current branch.
+
+git reset HEAD filename             		the filename get reseted to whats in the head(the head point to the tip of the current branch means the last commit)
+
+git commit -am "massage"			add and commit.
+
+git commit --amend -m "new massage"  		change the last comiit with the current one or change the massage of the last commit.
+
+git checkout 545656as54(SHA) -- filename 	put the selected commit in the stageig index and u can amend it to the last commit. (undoing commits with older commits)
+
+git revert 54as65d5asd(SHA)			make a new commit contains reverted commit u pasted the sha and wanted to be reverted.
+
+git reset --soft SHA				reset the head pointer to the sha which has pasted. and staging area and working dir would not 
+
+git reset --mixed SHA				reset the head pointer to the sha which has pasted. and staging area get reseted but the working dir whould not change 
+
+git reset --hard SHA				reset the head pointer to the sha which has pasted. and staging area and working dir get reseted.
+
+git clean -f 					hard remove not tracked files in working dir
+
+navigating commits(refrences can be these):
+	full sha
+	short sha
+	HEAD pointer
+	branch refrencing,tag refrencing
+	ancestry
+		HEAD^, asd454sa^ ,HEAD~1
+		HEAD^^,HEAD~2
+
+git ls-tree <tree-ish>
+	git ls-tree HEAD        		lists of the files at HEAD point. grouped in blob and tree
+	git ls-tree master^^			get the files in 2 previus commits before the last commit in the master branch
+	9.2 video important
+	
+
+git log more options:
+	git log --oneline
+	git log --oneline -3 just last 3 logs
+	git log --since="2016-06-20" (y-m-d)
+	git log --until="2016-06-20" (y-m-d)
+	git log --until="2 weeks ago" --since="3 days ago"
+	git log --until=2.weeks --since=3.days
+	git log --grep="temp"					grep is a global regex search for commit massages!			
+	git log 654asdas..asd41asd				get log 654asdas.. between the 2 SHAs u enterd
+	git log 654asdas..asd41asd --oneline
+	git log 654asdas..					get log 654asdas.. from this sha
+	git log -p as56dasd.. filename				track the pached log(full detailed log) from that sha for the filename!
+	git log --format="oneline"				return full sha compair to --oneline
+	git log --format="short"
+	git log --format="mediom"
+	git log --format="full"
+ 	git log --format="fuller"
+	git log --format="email"
+	git log --format="raw"
+	git log --graph						if we have branches and merges it would be so usefull
+	git log --oneline --graph --all --decorate
+
+git show sha							shows the commit with the diffs
+
+git show --format="oneline" HEAD~3
+
+git show (blobs, trees,tags and commits).
+
+git diff 5445asd(sha)						shows the diffs between current directory and the one was before when we commited(old directory)
+
+git diff --stat --summary 155612..HEAD                      	tricky one
+
+git diff -b sadasd.545asd					-b  -->  --ignore-space-change
+
+								-w	ignore all spaces.
+
+git branch							get the branch log ,show the branch names ,current branch has star before its name.
+
+git branch newBrachName						create new branch														
+
+git checkout brachName						switch to the branch	
+
+git checkout -b branchName					create new branch and switch to it. 
+
+git diff branchName..otherBranchName                    	get diff between two branches
+	
+git diff --color-words branchName^^..otherBranchName 		get diff between two branches (the 2 commits before the HEAD in branchName and the HEAD commit in otherBranchName)
+
+git branch --merged						shows the branches have all features inside one another
+
+git branch -m branchName newBranchName				rename branches
+
+git branch -d branchName					delete the branch
+
+git branch -D branchName					delete tha branche irespective to its merg status
+
+git merge branchName						from master branch we merge branchName to master.
+
+	merge with clean working directory or stash changes befor merging stuff.
+
+fastforward merge, merges the exact commit to the pointed branch with the same sha with out making new commit.
+
+git merge --no-ff branch force to do a merge with a commit even if fastforward is available
+
+git merge --ff-only branch do merges only if fastforward availble and abort otherwise.
+
+	if ur doing 2 changes in a branch in two several commits and want to merge this commits to another branch it would give u conflict.
+	if we see a merge conflict in the merging stat we are in the middle of a merge and we canget the status to see with file
+	cuzed the conflict. git marke the confliction with  <<<<<<<< conflict content >>>>>>>> .
+
+	abort merge
+	resolve manualy
+	use merge  tool
+
+if u are in a middle of a conflict merge
+git merge --abort
+
+git srash save "massage"						stash the stageing index and working dir in memory(a pucket)
+				
+	after the stash comand git reset --hard HEAD would apply and clear the stageing index and working dir to whats inthe repo.
+
+git stash list								show stash list
+	stash{0}: branchName:stash massage
+	stashNum
+
+git tash show stash{0}							shows the diff stats
+
+git tash show -p stash{0}						shows the diff stats more 
+
+git stash pop								get the stash back and remove it from stash.
+git stash apply								get the stash back only.
+	
+git stash drop	stash{0}						delete the stash item{0}			
+	
+
+in configuring remote branches the origin/master branch is the main branch we fetch or pull and our master branch merge to it and get fetched~!
+
+git remote								show the remotes we have
+
+git remote add remoteBranchName(origin) url				add a remote repo with the url in to our local repo
+git remote add origin url
+
+git remote -v								shows the url for fetch and push
+
+git remote rm remoteBranchName(origin)					remove the remote repo
+
+git push -u remoteBranchName localBranchName
+git push -u origin master
+		
+	push and pull are merge like commands.	
+
+git branch -r								shows remote branches
+
+git branch -a 								shows bothe remote and local branches	
+
+git clone url								create a new directory and creat a local copy of the project the url refers to
+
+git clone url directoryFileName
+
+13.6 vid remaining
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

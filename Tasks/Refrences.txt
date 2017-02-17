@@ -1,0 +1,16 @@
+js methods index:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index#D
+
+js properties index:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Properties_Index
+
+books for js indepth explanations enclude es6 and es7 new features:
+http://exploringjs.com
+
+
+mdn js:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+dom introduction
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
