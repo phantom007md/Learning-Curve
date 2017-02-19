@@ -14,7 +14,7 @@ jade
 ---------------------JavaScript---------------------------
 --React-Redux  --Angular2 
 	------------------------------------------
---Base	
+--Base	And Articles
 --String methods
 --Array methods
 
@@ -41,6 +41,9 @@ Gather practical git commands.
 
 
 
+
+
+--------------------------------------------------------Generic--------------------------------------------------
 
 --Commenting best practices
 
