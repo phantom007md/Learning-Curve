@@ -7,6 +7,7 @@ null
 undefined
 number[]   -- number array
 
+
 sample: var identifier:type = value ;
 	var foo:string = "sometext"
 
@@ -38,13 +39,17 @@ var customer:IPerson = {
 function(p1:IPerson,p2)
 
 
-----------------------Basic JS-----------------------------
+Namespace -->
 
-if oneline : boolian ? true statement : false statement
+	In gulpfile     target: 'ES5', module: 'es2015' are not needed
+	
+    			outFile: './dist/ts/bookingroom.js' is needed
 
+			if u are usning a any other TS file in ur current TS file u should import it for the tsc(typescript compile)
+			it is the /// <reference path="./util.ts"/> called triple slash refrecing!
 
-
-
+			any class in the namespace should be exported using (export) keyword even if ur not refrencing it in an other class or importing it any where.
+			
 
 
 

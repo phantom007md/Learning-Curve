@@ -5,4 +5,7 @@ Cross browser testing
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing
 
 
+commenting best practises
+phpdoc.org
+
 

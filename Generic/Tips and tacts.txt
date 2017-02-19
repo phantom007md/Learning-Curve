@@ -1,0 +1,1 @@
+When u write down a method the argumant u send in is a var and if its not, the type is requaierd like string in (dubble qoute) "" or number.
