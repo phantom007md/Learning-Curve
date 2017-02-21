@@ -9,7 +9,10 @@ jade
 --sass
 	Base
 	------------------------------------------
-
+w3schools for best refrencing and learning
+pseudo elements
+Counters
+Tooltips
 
 ---------------------JavaScript---------------------------
 --React-Redux  --Angular2 

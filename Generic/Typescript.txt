@@ -50,6 +50,8 @@ Namespace -->
 
 			any class in the namespace should be exported using (export) keyword even if ur not refrencing it in an other class or importing it any where.
 			
+			outFile option is for namespace compile
+			outDir is for normal compile.
 
 linter would not be activated if tsconfig.json is not placed in ur directory.
 
@@ -59,9 +61,12 @@ selectedElement instanceof HTMLSelectElement
 	we are checking if the element we select is an instance of the DOM object
 	The DOM objects are parsed with the API built in the browser.
 
+:Node and :Element are generic interfaces.
 
-outFile option is for namespace compile
-outDir is for normal compile.
+interfaces can be defined on variables witch have objects in themselves or refrencing it.
+
+
+
 
 
 
