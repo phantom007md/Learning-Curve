@@ -17,9 +17,12 @@ Tooltips
 ---------------------JavaScript---------------------------
 --React-Redux  --Angular2 
 	------------------------------------------
+--JavaScript Unit Testing
 --Base	And Articles
 --String methods
---Array methods
+--Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
+full array methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 
 --------------------------PHP-----------------------------

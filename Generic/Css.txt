@@ -1,0 +1,7 @@
+css Prefixs->
+
+every borwser render the css style codes on it own engine and gives a different output but we have a standard output and its w3c
+all the browsers should render the styles as it would be the same as the standard and untill they reach this point they
+put an prefix to the styles the offer examples: (-webkit- border-radios);
+
+

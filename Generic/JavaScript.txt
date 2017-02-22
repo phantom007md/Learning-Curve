@@ -9,3 +9,13 @@ in doing innerHTML +=  --> 	the operation would get the hole innerHTML as a stri
 			   	and replace it as a hole new string entierly not adding the string in the buttom.
 				it add the full string after modifing it.
 
+when we are using stringtemplates and using ${} to insert some variables inside the string if the variable changed in any ways
+we should re assign the stringtemplate and regenerate it in order to render the string with the changed Vars i it.
+
+defining properties in classes is only acceptable when we need to add some properties(accessable features inside<private> or outside<public> of the class)
+to the class and have a reason to add them.and bing a global variable to other methods is not a reeason.
+
+use const if the variable is not going to change in other places and it will make the let keyword tell u im getting change somewhere!
+
+insted of calling the method to fill a property and use the property after its nice to make the methor return the property
+and call the method in a local Var.
