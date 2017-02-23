@@ -1,3 +1,6 @@
+Some answers should be found when researching stuff.
+----------------------------------------------------
+
 What is Scripting languages
 
 

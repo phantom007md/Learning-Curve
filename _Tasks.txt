@@ -1,3 +1,6 @@
+Tasks i should do reguardless of the ladder timeings.
+-----------------------------------------------------
+
 Make a Dom introuduction.and complite the dom article
 
 Learn css Counter
