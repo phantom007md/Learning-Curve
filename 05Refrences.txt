@@ -20,3 +20,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduct
 
 commenting best practises
 phpdoc.org
+
+advanced typescript types
+https://www.typescriptlang.org/docs/handbook/advanced-types.html

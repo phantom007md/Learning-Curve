@@ -1,0 +1,8 @@
+Make a Dom introuduction.and complite the dom article.
+ 
+best practices documentation. research.
+make a documentation about the new utill
+
+learn array methods find filter and ...
+
+php practice

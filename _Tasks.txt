@@ -8,3 +8,12 @@ Learn css Counter
 JS dirty but interesting ways to do things
 
 How to install lamp centOS 7
+
+Rest and Spread Operators.
+
+TypeScript - Interfaces
+TypeScript - Classes
+TypeScript - Objects
+TypeScript - Namespaces
+TypeScript - Modules
+TypeScript - Ambients

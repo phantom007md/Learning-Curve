@@ -1,18 +1,45 @@
-typescript var types:
+---------------------------------------------------------------------------------------------------------------------
 
-number	
-string	
-void	
-null	
-undefined
-number[]   -- number array
+Type Synx:
 
+let isDone: boolean = false;         				//boolean keyword
+let decimal: number = 6;        				//number keyword
+let color: string = "blue";        				//string keyword
+let list: number[] = [1, 2, 3];      				//number keyword followed with arrays
+//The second way uses a generic array type, Array<elemType>:	 
+	let list: Array<number> = [1, 2, 3];			//Array Interface
+// Declare a tuple type
+	let x: [string, number];				//number keyword, string keyword
+
+// Function returning never must have unreachable end point
+function error(message: string): never {
+    throw new Error(message);
+}
+function infiniteLoop(): never {
+    while (true) {
+    }
+}
+
+Type assertions:
+let strLength: number = (someValue as string).length;
+let strLength: number = (<string>someValue).length;
+---------------------------------------------------------------------------------------------------------------------
 
 sample: var identifier:type = value ;
 	var foo:string = "sometext"
 
+---------------------------------------------------------------------------------------------------------------------
 
+function function_name():return_type { 
+   //statements 
+   return value; 
+}
+The return_type can be any valid data type.
+A returning function must end with a return statement.
+A function can return at the most one value. In other words, there can be only one return statement per function.
+The data type of the value returned must match the return type of the function.
 
+---------------------------------------------------------------------------------------------------------------------
 
 Union Type :gives programs the ability to combine one or two types
 	var val:string|number 
@@ -20,7 +47,12 @@ Union Type :gives programs the ability to combine one or two types
 
 	function samp(name:string|string[]) { 
 
-
+---------------------------------------------------------------------------------------------------------------------
+----Important-----
+namespace SomeNameSpaceName { 
+   export interface ISomeInterfaceName {      }  
+   export class SomeClassName {      }  
+} 
 
 Interface is a syntax structure for objects and classes in TS and make rules which a class must follow.
 interface IPerson { 
@@ -38,6 +70,7 @@ var customer:IPerson = {
 
 function(p1:IPerson,p2)
 
+---------------------------------------------------------------------------------------------------------------------
 
 Namespace -->
 
@@ -53,8 +86,11 @@ Namespace -->
 			outFile option is for namespace compile
 			outDir is for normal compile.
 
+---------------------------------------------------------------------------------------------------------------------
+
 linter would not be activated if tsconfig.json is not placed in ur directory.
 
+---------------------------------------------------------------------------------------------------------------------
 
 selectedElement instanceof HTMLSelectElement
 	->HTMLSelectElement is an object of dome
@@ -63,11 +99,58 @@ selectedElement instanceof HTMLSelectElement
 
 :Node and :Element are generic interfaces.
 
+---------------------------------------------------------------------------------------------------------------------
+
 interfaces can be defined on variables witch have objects in themselves or refrencing it.
 
+---------------------------------------------------------------------------------------------------------------------
 
+Declaring the type of something by typescript can be something:keyword  or  something:Interface
+and Interfaces bigin with uppercase letter.
 
+---------------------------------------------------------------------------------------------------------------------
 
+Optional Prameters can be set with question mark(?).
 
+function functionName(OptPrameter?, Parameter){
+	//statement
+}
+
+---------------------------------------------------------------------------------------------------------------------
+
+Recursion :
+
+function factorial(number) {
+   if (number <= 0) {         // termination case
+      return 1; 
+   } else {     
+      return (number * factorial(number - 1));     // function invokes itself
+   } 
+};
+
+---------------------------------------------------------------------------------------------------------------------
+
+Function Overloads
+a program can have multiple methods with the same name with different implementation.
+methods with different signature.
+
+-Function signature includes the following things:
+
+	The data type of the parameter  function disp(string):void;   function disp(number):void;
+	The number of parameters   	function disp(n1:number):void;   function disp(x:number,y:number):void;
+	The sequence of parameters      function disp(n1:number,s1:string):void;   function disp(s:string,n:number):void;
+
+Usage Example
+
+function disp(s1:string):void; 
+function disp(n1:number,s1:string):void; 
+
+function disp(x:any,y?:any):void { 
+   console.log(x); 
+   console.log(y); 
+} 
+disp("abc") 
+disp(1,"xyz");
+---------------------------------------------------------------------------------------------------------------------
 
 
