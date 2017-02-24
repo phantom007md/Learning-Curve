@@ -3,9 +3,7 @@ Tasks i should do reguardless of the ladder timeings.
 
 Make a Dom introuduction.and complite the dom article
 
-Learn css Counter
-
-JS dirty but interesting ways to do things
+JS dirty but interesting ways to do things.
 
 How to install lamp centOS 7
 
