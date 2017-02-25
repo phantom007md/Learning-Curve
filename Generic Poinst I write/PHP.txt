@@ -1,0 +1,26 @@
+Ladder for PHP LEARN
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+- A simple TODO List app - each task should have a title and a status (so the status can change with a checkbox) | html and php (w/o js)
+
+- Simple signup and login forms for our TODO List app - each user should have it's own list | html and php (w/o js)
+
+- Users can create tags and assign them to each task | html and php (w/o js)
+
+- People can comment on each task (w/o needing to authenticate).
+So our TODO List app should display each task in a single page with it's details and comments.
+<Title> tag in single page, should display the title of the task.
+
+- Oh my god! our tasks are growing and we need to paginate them.
+
+- We have to have some sort of filtering for our app. You know, I am a person who creates a lot of tasks to schedule his life.
+So I need to search between my tasks and sort them in order to find a specific task. Also I need to filter tasks by tags.
+
+- Users should have their own profile. They can upload an avatar our add their email to the profile.
+
+- Now we're going to make our users surprise. We want to add a feature called: "Task Attachments".
+Users can attach multiple files to each task and after that, they can download them.
+
+- We have our users' emails. I think we can add a reminder to our app. So users can add a due time to their tasks and we will remind them by email.
+
+
