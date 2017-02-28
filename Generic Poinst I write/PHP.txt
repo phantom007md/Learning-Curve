@@ -24,3 +24,97 @@ Users can attach multiple files to each task and after that, they can download t
 - We have our users' emails. I think we can add a reminder to our app. So users can add a due time to their tasks and we will remind them by email.
 
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+//$minheight has a default value
+
+function setHeight($minheight = 50) {
+    echo "The height is : $minheight <br>";
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------
+In contrast to the variables declared as function parameters, which are destroyed on the function's exit,
+a static variable will not lose its value when the function exits and will still hold that value should the function be called again.
+->loop keywords dont are like functions dont exit untill the finish the condition but the function will exit and distroy the variables inside it if there are not static.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Once the Constants have been set, may not be redefined or undefined.
+A constant value cannot change during the execution of the script.
+<?php
+   define("MINSIZE", 50);
+   
+   echo MINSIZE;
+   echo constant("MINSIZE"); // same thing as the previous line
+?>
+
+--PHP Magic constants
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Assignment Operators:
+
+C += A is equivalent to C = C + A
+C -= A is equivalent to C = C - A
+C *= A is equivalent to C = C * A
+C /= A is equivalent to C = C / A
+C %= A is equivalent to C = C % A
+
+Logical Operators:
+
+(A and B) is true.
+(A or B) is true.
+(A && B) is true.
+(A || B) is true.
+!(A && B) is false.
+	Called Logical NOT Operator. Use to reverses the logical state of its operand.
+	If a condition is true then Logical NOT operator will make false.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+$result = ($a > $b ) ? $a : $b;
+if true $result will be $a
+if false $result will be $b
+----------------------------------------------------------------------------------------------------------------------------------------------------
+return statement would exit a function.
+break statement would exit a loop.
+continue statement will continue the loop in a break or non break situation
+
+foreach( $array as $value ) {
+            if( $value == 3 )continue;
+            echo "Value is $value <br />";
+         }
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Numeric array - An array with a numeric index. Values are stored and accessed in linear fashion.
+
+Associative array - An array with strings as index. This stores element values in association with key values rather than in a strict linear index order.
+
+Multidimensional array - An array containing one or more arrays and values are accessed using multiple indices
+----------------------------------------------------------------------------------------------------------------------------------------------------
+defining multy dimentional Array:
+setting
+	$array = [one => ["first"=>"myName","second"=>"yourName"],two=>["third"=>"hisName"]];
+getting
+	$array[one][first] //muName
+----------------------------------------------------------------------------------------------------------------------------------------------------
+String Concatenation Operator is a dot:(.);
+----------------------------------------------------------------------------------------------------------------------------------------------------
+getenv();
+----------------------------------------------------------------------------------------------------------------------------------------------------
+There are two ways the browser client can send information to the web server.    browser client Is the key in this sentence.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+The GET Method		$_GET
+The POST Method		$_POST
+The $_REQUEST variable 	The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+The include() Function
+The require() Function
+
+Different in error handlings.
+
+If there is any problem in loading a file then the include() function generates a warning but the script will continue execution.
+If there is any problem in loading a file then the require() function generates a fatal error and halt the execution of the script.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+file handling by php
+https://www.tutorialspoint.com/php/php_files.htm
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+

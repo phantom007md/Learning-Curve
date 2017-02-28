@@ -30,8 +30,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 --------------------------PHP-----------------------------
 --laravel  --myownframework
 	------------------------------------------
-
-
+--PHP Array Constants
+--List of Functions FOR arrays(methods)		
+--String Functions(methods)		http://in.php.net/manual/en/ref.strings.php
+--Identifying Browser & Platform	https://www.tutorialspoint.com/php/php_web_concepts.htm
 
 --------------------------NODE----------------------------
 --express --nosqldb  --myownframework

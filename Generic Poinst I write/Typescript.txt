@@ -4,10 +4,12 @@ Type Synx:
 
 let isDone: boolean = false;         				//boolean keyword
 let decimal: number = 6;        				//number keyword
-let color: string = "blue";        				//string keyword
+let color: string = "blue";                                     //string keyword
+
 let list: number[] = [1, 2, 3];      				//number keyword followed with arrays
-//The second way uses a generic array type, Array<elemType>:	 
+The second way uses a generic array type, Array<elemType>:	 
 	let list: Array<number> = [1, 2, 3];			//Array Interface
+
 // Declare a tuple type
 	let x: [string, number];				//number keyword, string keyword
 
@@ -25,7 +27,7 @@ let strLength: number = (someValue as string).length;
 let strLength: number = (<string>someValue).length;
 ---------------------------------------------------------------------------------------------------------------------
 
-sample: var identifier:type = value ;
+sample: var varName:type = value ;
 	var foo:string = "sometext"
 
 ---------------------------------------------------------------------------------------------------------------------

@@ -30,3 +30,20 @@ when the script engine encounters it during execution.
 ---------------------------------------------------------------------------------------------------------------------
 if the method or property is not getting accessed by the instance u make it should be static instead.
 ---------------------------------------------------------------------------------------------------------------------
+
+
+function functionName(){
+	//the hole function will be a var holding a string in it by returning the string
+	return "someString"
+}
+
+
+
+
+
+
+
+
+
+
+
