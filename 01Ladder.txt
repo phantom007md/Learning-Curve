@@ -1,9 +1,30 @@
 A ladder optimized based on Knowledge NEEDS.
 ----------------------------------------------
 
-Git Base and commands
+Its obviouse that everything u learn should be practiced and get wrote down at the same time.
 
-React Basics Work
+------------------FrontEnd-------------------------------------------------------------------------------
+JavaScript Base and TypeScript Basics   --  reading articles From MDN and summerizig them.
 
-PHP Basics Home
+ES6 Full knowledge for react learning  -- research and articles 
 
+React learning  --  Movies and MHE and Articles
+
+Angular learning base on what navac needs  ...
+
+gathering some infrmation about hot topics in the world and reading uptodate articles everyday.
+
+------------------BackEnd-------------------------------------------------------------------------------
+
+PHP Basics.
+
+PHP OOP
+
+PHP 7
+
+
+
+
+
+
+------------------Generic-------------------------------------------------------------------------------

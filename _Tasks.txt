@@ -1,7 +1,18 @@
 Tasks i should do reguardless of the ladder timeings.
 -----------------------------------------------------
 
-Make a Dom introuduction.and complite the dom article
+-----------------toNight------------------------------
+
+Make a Dom introuduction.and complite the dom article.
+
+best practices documentation. research.
+make a documentation about the new utill
+
+learn array methods find filter and ...
+
+regex explanation
+
+------------------------------------------------------
 
 JS dirty but interesting ways to do things.
 
@@ -9,11 +20,11 @@ How to install lamp centOS 7
 
 Rest and Spread Operators.
 
-regex explanation
-
 TypeScript - Interfaces
 TypeScript - Classes
 TypeScript - Objects
 TypeScript - Namespaces
 TypeScript - Modules
 TypeScript - Ambients
+
+
