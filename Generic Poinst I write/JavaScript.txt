@@ -30,20 +30,60 @@ when the script engine encounters it during execution.
 ---------------------------------------------------------------------------------------------------------------------
 if the method or property is not getting accessed by the instance u make it should be static instead.
 ---------------------------------------------------------------------------------------------------------------------
-
-
 function functionName(){
 	//the hole function will be a var holding a string in it by returning the string
 	return "someString"
 }
+---------------------------------------------------------------------------------------------------------------------
+var myString = '123';
+var myNum = Number(myString);
+typeof myNum;
 
+var myNum = 123;
+var myString = myNum.toString();
+typeof myString;
+---------------------------------------------------------------------------------------------------------------------
+var browserType = mozilla
+browserType.indexOf('zilla'); // 2 cuz the zilla start from index 2 (0 1 2);
+browserType.slice(0,3); // moz
+browserType.slice(2); // zilla
 
+var radData = 'My NaMe Is MuD';
+radData.toLowerCase();
+radData.toUpperCase();
+---------------------------------------------------------------------------------------------------------------------
+addEventListener() and removeEventListener()
+---------------------------------------------------------------------------------------------------------------------
+var myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+Now let's split it at each comma:
 
+var myArray = myData.split(',');
+myArray; // ["Manchester", "London", "Liverpool", "Birmingham", "Leeds", "Carlisle"]
 
+var myNewString = myArray.join(',');
+myNewString;// "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle"
 
+Let's use push() first — note that you need to include one or more items that you want to add to the end of your array.
+var newLength = myArray.push('Bristol');
 
+Removing the last item from the array is as simple as running pop() on it. Try this:
+myArray.pop();
+---------------------------------------------------------------------------------------------------------------------
+a constructor function is a function gets the arguments for and obj and return the obj when we call it.
 
+Try entering this into your browser's JavaScript console:
+var person1 = new Object();
+This stores an empty object in the person1 variable. You can then add properties and methods to this object using dot or bracket notation as desired; try these examples:
+person1.name = 'Chris';
+person1['age'] = 38;
+person1.greeting = function() {
+  alert('Hi! I\'m ' + this.name + '.');
+};
 
+JavaScript has a built-in method called create(), which allows you to create a new object instance based on an existing object.
+Try this in your JavaScript console:
+var person2 = Object.create(person1);
+---------------------------------------------------------------------------------------------------------------------
 
 
 
