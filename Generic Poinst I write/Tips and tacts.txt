@@ -1,1 +1,4 @@
 When u write down a method the argumant u send in is a var and if its not, the type is requaierd like string in (dubble qoute) "" or number.
+
+for making a tree-ish json we need a loop for every i (index) and inside each loop cycle we generate an subindex for that jason
+if we want to do nested arrays in arrays we make loops for every index loop of the erly loop index and generate some arrey.

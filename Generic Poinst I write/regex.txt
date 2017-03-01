@@ -1,0 +1,7 @@
+forward slash like / is a special character witch the full regex will be inside it 
+backslash \ make some special charachters like . ? etc witch mean something toregex indicate as a normal character.
+->\. is a normall dot.
+some times \followd by some characters does have meanings togather.
+-> \d for any digits etc
+
+replace test:returns bool search match

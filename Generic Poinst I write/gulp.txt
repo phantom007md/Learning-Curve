@@ -1,0 +1,4 @@
+in giving src to gulp we should make explicit directory untill we reach the file we want to gain and ive it to gulp.
+cuz otherwise if gulp.src finds any folder wich contains a file in it it will compile and create the folder while 
+exporting it to gulp.dest directory.
+usualy this problem occurs with the parent folders we dont give the address explicit about them.

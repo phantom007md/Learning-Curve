@@ -30,6 +30,7 @@ when the script engine encounters it during execution.
 ---------------------------------------------------------------------------------------------------------------------
 if the method or property is not getting accessed by the instance u make it should be static instead.
 ---------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 function functionName(){
 	//the hole function will be a var holding a string in it by returning the string
 	return "someString"
@@ -85,5 +86,9 @@ Try this in your JavaScript console:
 var person2 = Object.create(person1);
 ---------------------------------------------------------------------------------------------------------------------
 
+=======
+returning a value in any function make the fanction name a variable holding that value and anytime a functon is
+responsible for generating or creating something maybe it should return some thing and get used in other places.
+>>>>>>> 7bcd1ae997c7e49997e0184e06607609f2ffe5ad
 
 
