@@ -30,3 +30,11 @@ when the script engine encounters it during execution.
 ---------------------------------------------------------------------------------------------------------------------
 if the method or property is not getting accessed by the instance u make it should be static instead.
 ---------------------------------------------------------------------------------------------------------------------
+returning a value in any function make the fanction name a variable holding that value and anytime a functon is
+responsible for generating or creating something maybe it should return some thing and get used in other places.
+
+
+
+
+
+
