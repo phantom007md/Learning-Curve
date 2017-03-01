@@ -34,7 +34,3 @@ returning a value in any function make the fanction name a variable holding that
 responsible for generating or creating something maybe it should return some thing and get used in other places.
 
 
-
-
-
-

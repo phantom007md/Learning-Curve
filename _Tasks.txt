@@ -9,6 +9,8 @@ How to install lamp centOS 7
 
 Rest and Spread Operators.
 
+regex explanation
+
 TypeScript - Interfaces
 TypeScript - Classes
 TypeScript - Objects
