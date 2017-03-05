@@ -1,3 +1,13 @@
+Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+Hoisting applies to variable declarations and to function declarations.
+Because of this, JavaScript functions can be called before they are declared.
+If a function is called with missing arguments (less than declared), the missing values are set to: undefined.
+if (y === undefined) {y = 0} 
+
+JavaScript functions have a built-in object called the arguments object.
+The argument object contains an array of the arguments used when the function was called (invoked).
+If a function changes an argument's value, it does not change the parameter's original value.
+Changes to arguments are not visible (reflected) outside the function.
 ---------------------------------------------------------------------------------------------------------------------
 if oneline : boolian ? true statement : false statement
 ---------------------------------------------------------------------------------------------------------------------
@@ -85,10 +95,35 @@ JavaScript has a built-in method called create(), which allows you to create a n
 Try this in your JavaScript console:
 var person2 = Object.create(person1);
 ---------------------------------------------------------------------------------------------------------------------
-
-=======
 returning a value in any function make the fanction name a variable holding that value and anytime a functon is
 responsible for generating or creating something maybe it should return some thing and get used in other places.
->>>>>>> 7bcd1ae997c7e49997e0184e06607609f2ffe5ad
+---------------------------------------------------------------------------------------------------------------------
+In JavaScript, the thing called this, is the object that "owns" the current code.
+The value of this, when used in a function, is the object that "owns" the function.
+
+if a function does not belong to any object it will be belonged to a global object like window object which is the most global object in JS
+in web browsers. and this keyword will refer to the window object.
+
+Invoking a Function as a Method when u add a function to an object property
+-->Invoking a function as an object method, causes the value of this to be the object itself.
+
+function Person(name){
+	this.name = name;
+}
+var person1 = new Person("PHANTOM");
+->The this keyword in the constructor does not have a value.
+  The value of this will be the new object created when the function is invoked.
+
+
+call() and apply() are predefined JavaScript function methods. Both methods can be used to invoke a function, and both methods
+must have the owner object as first parameter.
+->
+In JavaScript strict mode, the first argument becomes the value of this in the invoked function, even if the argument is not an object.
+In "non-strict" mode, if the value of the first argument is null or undefined, it is replaced with the global object.
+
+
+
+
+
 
 

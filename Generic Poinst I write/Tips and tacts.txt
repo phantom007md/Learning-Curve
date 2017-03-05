@@ -2,3 +2,7 @@ When u write down a method the argumant u send in is a var and if its not, the t
 
 for making a tree-ish json we need a loop for every i (index) and inside each loop cycle we generate an subindex for that jason
 if we want to do nested arrays in arrays we make loops for every index loop of the erly loop index and generate some arrey.
+
+chaining in JavaScript means when we call an object's property like : obj.property if the property we call is an object we can call property from the inside object
+like obj.property.property and just go inside the objects ny accessing their properties as objects and calling isnide them and use the chaining system.
+

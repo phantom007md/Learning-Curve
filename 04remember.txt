@@ -11,3 +11,5 @@ break ur work to peaces and commit logicaly.
 
 Read the knwledge u gather before any project u want to start.
 better method naming are requaierd
+
+When you read something you should test it and try it atm.
