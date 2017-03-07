@@ -4,5 +4,12 @@ every borwser render the css style codes on it own engine and gives a different 
 all the browsers should render the styles as it would be the same as the standard and untill they reach this point they
 put an prefix to the styles the offer examples: (-webkit- border-radios);
 
+css possitioning.
+if u give a position property to an element it will be on a different leyer and not related to other elements.
+the parent wont underestand some of the child properties.
 
--w3schools-  Css Counter
+if u set right:0px left:0px;   margin :auto would work;
+
+css units
+
+20vw  == 20% of the viewport width;

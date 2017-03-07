@@ -6,3 +6,5 @@ if we want to do nested arrays in arrays we make loops for every index loop of t
 chaining in JavaScript means when we call an object's property like : obj.property if the property we call is an object we can call property from the inside object
 like obj.property.property and just go inside the objects ny accessing their properties as objects and calling isnide them and use the chaining system.
 
+gulp-cli should be installed for  just one time to offer servise recocnizing gulp commands .
+it is a commmand line interface witch serve some gulp commands.

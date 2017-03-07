@@ -1,0 +1,52 @@
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+The cx and cy attributes define the x and y coordinates of the center of the circle. If cx and cy are omitted,
+the circle's center is set to (0, 0).
+The r attribute defines the radius of the circle.
+the circle to a 4px green "border".
+The fill attribute refers to the color inside the circle. We set the fill color to yellow.
+The closing </svg> tag closes the SVG image.
+
+the design attributes can be given and get assigned with css.
+style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9".
+if we use opacity:0.5 we are defining opacity to hole elements.
+
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg>
+	The rx and the ry attributes rounds the corners of the rectangle.
+
+possitionings:
+
+	rect x y      => margin x margin y   --  rx="100" ry="50"      x radius  y raius
+
+	circle cx cy  => center x  center y  --  r                     radius
+
+	elipse cx cy  => center x  center y  --  rx="100" ry="50"      x radius  y raius
+
+
+<svg height="210" width="500">
+  <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+</svg>
+
+<svg height="210" width="500">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+</svg>
+
+points in polygons define the points the shape starts from and go furthor for more points to make the shape. 
+
+polyline:
+<svg height="200" width="500">
+  <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
+  style="fill:none;stroke:black;stroke-width:3" />
+</svg>
+
+
+
+
+
+
