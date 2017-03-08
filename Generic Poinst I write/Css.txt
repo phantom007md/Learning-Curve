@@ -13,3 +13,6 @@ if u set right:0px left:0px;   margin :auto would work;
 css units
 
 20vw  == 20% of the viewport width;
+
+every property in css got its own default value and this is usefull when u want to reset som property
+to its default state. spesially in media query responsive designing.

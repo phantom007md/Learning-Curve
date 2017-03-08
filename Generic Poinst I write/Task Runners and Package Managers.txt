@@ -1,0 +1,6 @@
+using bower init or npm init will make a filename.json(a json file) which any package name will be saved in it 
+in terms of usning --save. we need to install the packages typing bower install or npm install.
+
+init ing will make package.json bower.json and some json u need to sort some data about ur packages and package managers
+
+.bowerrc will have some configuration settings for the package manager.(bower)
