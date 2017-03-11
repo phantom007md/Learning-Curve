@@ -16,3 +16,8 @@ css units
 
 every property in css got its own default value and this is usefull when u want to reset som property
 to its default state. spesially in media query responsive designing.
+
+psudo elements like ::after and ::before should have content : '' to be an real element to work even
+content '' as noyhing is needed.
+
+groupe the css styles u write to gather and shorter lines should be set to highier state.

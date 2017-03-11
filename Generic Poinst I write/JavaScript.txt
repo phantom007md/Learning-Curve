@@ -120,9 +120,9 @@ must have the owner object as first parameter.
 ->
 In JavaScript strict mode, the first argument becomes the value of this in the invoked function, even if the argument is not an object.
 In "non-strict" mode, if the value of the first argument is null or undefined, it is replaced with the global object.
-
-
-
+---------------------------------------------------------------------------------------------------------------------
+(x=!x) ? a:b  // toggling every time ->check the x value in boolian state and change it everytime it execute.
+---------------------------------------------------------------------------------------------------------------------
 
 
 
