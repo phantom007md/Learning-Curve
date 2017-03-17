@@ -29,7 +29,7 @@ Tooltips
 --Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
 full array methods
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-
+JSON.stringify(value[, replacer[, space]]);
 
 --------------------------PHP-----------------------------
 --laravel  --myownframework
