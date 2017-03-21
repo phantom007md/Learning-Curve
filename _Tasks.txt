@@ -3,6 +3,9 @@ Tasks i should do reguardless of the ladder timeings.
 
 -----------------toNight------------------------------
 
+Rest and Spread Operators.
+https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments
+
 set and WeakSet and ... data structure.
 
 get and set functions in properties.
