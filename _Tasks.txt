@@ -3,6 +3,8 @@ Tasks i should do reguardless of the ladder timeings.
 
 -----------------toNight------------------------------
 
+Flickity
+
 Emmet
 
 SVG
