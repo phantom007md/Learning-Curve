@@ -1,0 +1,158 @@
+JavaScript is a loosely typed or a dynamic language. That means you don't have to declare the type of a variable ahead
+of time. The type will get determined automatically while the program is being processed. That also means that you can
+have the same variable as different types:
+-----------------------------------------------------
+Null->
+The value null represents the intentional absence of any object value.
+null expresses a lack of identification, indicating that a variable points to no object.
+-----------------------------------------------------
+undefined->
+The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types.
+undefined is a property of the global object; i.e., it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+In modern browsers (JavaScript 1.8.5 / Firefox 4+), undefined is a non-configurable, non-writable property per the ECMAScript 5 specification. Even when this is not the case, avoid overriding it.
+A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
+
+Note: The strict equality operator rather than the standard equality operator must be used here, because x == undefined also checks whether x is null, while strict equality doesn't. null is not equivalent to undefined
+-----------------------------------------------------
+Void operator->
+The void operator evaluates the given expression and then returns undefined.
+-----------------------------------------------------
+String->
+Unlike in languages like C, JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it. However, it is still possible to create another string based on an operation on the original string. For example:
+
+A substring of the original by picking individual letters or using String.substr().
+A concatenation of two strings using the concatenation operator (+) or String.concat().
+
+-----------------------------------------------------
+*****************************************************
+-----------------------------------------------------
+symbols->
+The Symbol() function returns a value of type symbol, has static properties that expose several members of
+built-in objects, has static methods that expose the global symbol registry, and resembles a built-in object
+class but is incomplete as a constructor because it does not support the syntax "new Symbol()".  
+-----------------------
+A symbol value may be used as an identifier for object properties; this is the data type's only purpose.
+-----------------------
+--var sym = new Symbol(); // TypeError
+This prevents authors from creating an explicit Symbol wrapper object instead of a new symbol value
+
+--If you really want to create a Symbol wrapper object, you can use the Object() function:
+var sym = Symbol('foo');
+typeof sym;     // "symbol" 
+var symObj = Object(sym);
+typeof symObj;  // "object"
+-----------------------
+**The above syntax using the Symbol() function will not create a global symbol that is available in your whole codebase.
+To create symbols available across files and even across realms (each of which has its own global scope),
+use the methods Symbol.for() and Symbol.keyFor() to set and retrieve symbols from the global symbol registry.
+
+The Symbol.for(key) method searches for existing symbols in a runtime-wide symbol registry with the given key and returns it if found. Otherwise a new symbol gets created in the global symbol registry with this key.
+Syntax
+Symbol.for(key);
+
+Parameters:
+key
+String, required. The key for the symbol (and also used for the description of the symbol).
+Return value
+
+--An existing symbol with the given key if found; otherwise, a new global symbol is created and returned.
+-----------------------
+The Symbol.keyFor(sym) method retrieves a shared symbol key from the global symbol registry for the given symbol.
+SyntaxEDIT
+Symbol.keyFor(sym);
+
+Parameters
+sym
+Symbol, required. The symbol to find a key for.
+Return value
+A string representing the key for the given symbol if one is found on the global registry; otherwise, undefined.
+-----------------------
+To avoid name clashes with your global symbol keys and other (library code) global symbols, it might be a good idea to prefix your symbols:
+Symbol.for('mdn.foo');
+Symbol.for('mdn.bar');
+-----------------------
+The Object.getOwnPropertySymbols() method returns an array of all symbol properties found directly upon a given object.
+
+Parameters:
+Object.getOwnPropertySymbols(obj)
+obj
+The object whose symbol properties are to be returned.
+
+Return value
+An array of all symbol properties found directly upon the given object.
+
+Note that Object.getOwnPropertyNames() itself does not contain the symbol properties of an object and only the string properties.
+
+As all objects have no own symbol properties initially, Object.getOwnPropertySymbols() returns an empty array unless you have set symbol properties on your object.
+-----------------------------------------------------
+Properties
+Symbol.prototype.constructor
+Returns the function that created an instance's prototype. This is the Symbol function by default.
+MethodsEDIT
+Symbol.prototype.toSource() 
+Returns a string containing the source of the Symbol object. Overrides the Object.prototype.toSource() method.
+Symbol.prototype.toString()
+Returns a string containing the description of the Symbol. Overrides the Object.prototype.toString() method.
+Symbol.prototype.valueOf()
+Returns the primitive value of the Symbol object. Overrides the Object.prototype.valueOf() method.
+Symbol.prototype[@@toPrimitive]
+Returns the primitive value of the Symbol object.
+-----------------------------------------------------
+Well-known symbols ->some symbols with are used as value key to other objrct methods.
+-----------------------------------------------------
+Symbol prototypeEDIT
+All Symbols inherit from Symbol.prototype.
+
+Properties
+Symbol.prototype.constructor
+Returns the function that created an instance's prototype. This is the Symbol function by default.
+
+Methods
+Symbol.prototype.toSource() 
+Returns a string containing the source of the Symbol object. Overrides the Object.prototype.toSource() method.
+Symbol.prototype.toString()
+Returns a string containing the description of the Symbol. Overrides the Object.prototype.toString() method.
+Symbol.prototype.valueOf()
+Returns the primitive value of the Symbol object. Overrides the Object.prototype.valueOf() method.
+Symbol.prototype[@@toPrimitive]
+Returns the primitive value of the Symbol object.
+-----------------------------------------------------
+Symbol type conversions
+
+Some things to note when working with type conversion of symbols.
+
+When trying to convert a symbol to a number, a TypeError will be thrown
+(e.g. +sym or sym | 0).
+When using loose equality, Object(sym) == sym returns true.
+Symbol("foo") + "bar" throws a TypeError (can't convert symbol to string). This prevents you from silently creating a new string property name from a symbol, for example.
+The "safer" String(sym) conversion works like a call to Symbol.prototype.toString() with symbols, but note that new String(sym) will throw.
+-----------------------------------------------------
+Symbols and JSON.stringify()
+
+Symbol-keyed properties will be completely ignored when using JSON.stringify():
+
+JSON.stringify({[Symbol('foo')]: 'foo'});                 
+// '{}'
+-----------------------------------------------------
+symbols glosery.
+https://developer.mozilla.org/en-US/docs/Glossary/Symbol
+
+A value having the data type "symbol" can be referred to as a "symbol value."  In the JavaScript run-time environment,
+a symbol value is created by invoking the function Symbol(), which dynamically produces an anonymous, unique value.
+The only sensible usage is to store the symbol and then use the stored value to create an object property.  
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

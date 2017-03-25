@@ -1,0 +1,47 @@
+JavaScript provides three different value-comparison operations:
+
+strict equality (or "triple equals" or "identity") using ===,
+loose equality ("double equals") using ==,
+and Object.is (new in ECMAScript 2015).
+-----
+
+loose equality (==) do a common type convertion before comparing the values and returning the result.
+strict equality (===) compare two values with their own type and return false simply if the type of the two values is defer to eachother.
+
+NaN ==  NaN //falss
+NaN === NaN //falss
+
++0  == -0   //true
++0  == -0   //true
+
+--------------------------
+var x = +"1";  // converting string 1 to number 1.
+--------------------------
+
+Traditionally, and according to ECMAScript, all objects are loosely unequal to undefined and null.
+
+null === undefined  //
+false
+
+null ==  undefined
+   //true
+
+any object can emulate null and undefined are loosly equal to null or undefined
+
+anyObject === null       //false
+anyObject === undefined  //false
+
+strict equal is better as no type coercion takes place the evaluation may be faster.
+
+
+
+
+
+
+
+
+
+
+
+
+

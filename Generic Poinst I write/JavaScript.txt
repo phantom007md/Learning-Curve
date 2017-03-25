@@ -123,7 +123,11 @@ In "non-strict" mode, if the value of the first argument is null or undefined, i
 ---------------------------------------------------------------------------------------------------------------------
 (x=!x) ? a:b  // toggling every time ->check the x value in boolian state and change it everytime it execute.
 ---------------------------------------------------------------------------------------------------------------------
+property names or object keys can be variables containing string numbers or symbols or explicit values in '' and such.
+---------------------------------------------------------------------------------------------------------------------
+ObjectsEDIT
+In computer science, an object is a value in memory which is possibly referenced by an identifier.
 
-
-
+Properties
+The data property and the accessor property.
 

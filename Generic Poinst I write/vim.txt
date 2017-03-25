@@ -1,0 +1,21 @@
+:q quit
+
+:e edit
+
+:w write => save
+
+:wq save and quit vim
+
+v visual mode
+
+i insert mode
+
+esc normal mode
+
+v start selecting
+
+V select entier line
+
+d delete
+
+so % surce the current file it means vim should reload the file and read it atm.

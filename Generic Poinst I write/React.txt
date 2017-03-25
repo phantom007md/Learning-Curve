@@ -1,0 +1,85 @@
+npm install create-react-app -g an enviorment for helping creating react apps
+
+command create-react-app appName
+
+the hole program is a single component and other component will go inside down.
+
+npm can run some commands and they are custom cammmands 
+
+->npm start //its in the local app in bin folder. --npm run start or run any script u made the allias in package.json
+ "build": "react-scripts build"
+
+
+module bundlers like rollup and such will read the -import- commands and if ./ doesnt exist they dont start from the current directory and start from node_modules directory.
+
+the entry file in react app is index for importing roles.
+
+components are split codes in react.
+
+element (jsx html elements) properties are dome attributes not html attributes.
+
+every component is a module and shuld be in a seperate file.
+
+--when ever we write jsx we are writing react.createElement() method and creating an object called virtualDOM.
+this method accept props object in the second prameter and in jsx sintax u can write the props down as key values as the attributes of each element.
+and the content witch can be the third and furthor prameter in the method should be between the jsx element as nested content. 
+best practice in developing a react app is to make an app.js and import all of the components,the pieces of virtualDOMs
+and return one big virtualDOM and we render this Object in to a target bye reactDOM.render(appObject, target)
+	reactDOM.render(<app />, target);
+
+nested jsx elements (objects) are the children and the third property and furthor in react.createElement() method.
+when ever your calling a jsx element like <app attributeName="atributeValue" /> ur calling a react.createElement() method (function)
+and the attributes are sended as props object (as the second prameter in the method).
+the atribute name in the jsx sintax is not the html attribute name and its the dom attributre name:
+for example class attribute name is className in jsx in many diferent reasons.
+and u can get that props object in the method and use it there inside down the method.
+the attributes in the jsx element (object) are the properties of of that object sended to the funcion creating that object as props.
+
+the main component witch contains all the emported components will be app.js and the app will be
+imported to index.js and get renderd with reactDOM.render().
+reactDOM.render() gets the target and render the last result of the virtualDOM with is made
+from peaces of virtualDOM objects (components) in to the target we give it.
+
+the react library has some classes (objects) and the react class has been exported bye default
+  export default className;
+one of the other classes is the -component- class is used from react library.
+react library has the job to make the virtual dom, the object its self and rendering this object in to the DOM
+is the duty of the reactDOM library.
+reading jsx is the transpiler duty and has nothing to do with the react its self.
+jsx is a suger sintax for the react methods. and simulate the react.createElement() method with and easier sintax at all.
+one of the react original methods is the react.createElement() and uses react class to create the element in the virtual dom.
+reactDom will render this Virtual dom to the dom when its necesery.
+
+reactDOM.render() is the render method witch renders the virtualDOM in to the target element in the mani DOM.
+and this method is the processor to dif the virtualDOM and the DOM it self and renders the virtualDOM in to 
+the main DOM if any diference was occurd between the virtualDOM object and the root target DOM under controll.
+
+
+render() method in the classes witch are got extended from the Component class has the job to return
+the child and the little virtualDOM object in terms of importing it to another coponent or in the main component
+witch is the app.js in default situations.
+
+
+react (by its own methods) creates a virtualDOM and reactDOM(by its methods) render that object in to the target element
+in the DOM its self.
+
+reactDOM has a render method (ReactDOM.render()) wich renders the given object from the virtualDOM
+(witch is created bye the react.createElement()) in to the browser and every jsx element we are typing is an
+react.createElement and this element will be created in the virtualDOM.
+
+react.createElement($1,$2,$3) 
+	$1 Is the element name if its a string passed and if an object pass will be the element object itself 
+	(we pass and object in terms of passing properties in the next args)
+	$2 Is the properties object and contains key value content in it.
+	$3 and furthor that is the content or contents in side down the eement and can be elements created or string and ....
+
+statefull components shuld be classes and get extended from the Component class to use the setState() method and make
+changes undrestandble.
+
+if we want to write jsx nice and neet and have an acceptable indentig we can use () in front of the return of the render method
+in the component and move the first jsx tag to a lower line to fit the indent rules.
+
+
+
+
+
