@@ -134,8 +134,11 @@ The data property and the accessor property.
 when we are adding an event to an element the function we are calling when the event triggers, receaves the e arg as the first
 prameter and its an object with has methods and properties of its self and the inhereted __proto__s. 
 
-
-
+inside a class (object) when we are declaring a property as a property or method we have access to that property by the _this_
+object and we use this.propName to call it. so this can be the object its self inside the class and can be the object own the
+function.
+The value of this, when used in a function, is the object that "owns" the function. The value of this, when used in an object, is
+the object itself.
 
 
 

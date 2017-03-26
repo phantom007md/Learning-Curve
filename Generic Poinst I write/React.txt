@@ -101,11 +101,12 @@ methods called render() witch returns the object as virtualDOM and the diferent 
 important property is the state object an if we change this object the render method runs again and its the hole perpose of react.
 we can change the state with the setState() method.
 
+inside the function witch return the object virtualDOM or the render() method witch returns an object virtualDOM the virtualDOM
+is created and its ready and when ever we call the function or call the render method from the class we can use the returned 
+virtualDOM object.
 
-
-
-
-
-
+the react jsx onClick attribute is diferent from the html onClick because the html one dont send the e object and for that
+kind of useage we should use the addEventListener method and jsx uses this when we are setting the onClick attributre inside jsx
+elements.
 
 
