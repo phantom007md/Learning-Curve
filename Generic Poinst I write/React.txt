@@ -79,7 +79,8 @@ changes undrestandble.
 if we want to write jsx nice and neet and have an acceptable indentig we can use () in front of the return of the render method
 in the component and move the first jsx tag to a lower line to fit the indent rules.
 
-
-
+if we are in jsx the {} means that u can write js inside the{} and if the attribute value contains js objact to pass that out
+we can do this : attributeName={ObjectName}  insted of attributeName="attributeValue"  .
+we can write any thing instead of objectName if its js and sort of a data thing. like a var or a returned function.
 
 
