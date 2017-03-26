@@ -131,3 +131,11 @@ In computer science, an object is a value in memory which is possibly referenced
 Properties
 The data property and the accessor property.
 
+when we are adding an event to an element the function we are calling when the event triggers, receaves the e arg as the first
+prameter and its an object with has methods and properties of its self and the inhereted __proto__s. 
+
+
+
+
+
+

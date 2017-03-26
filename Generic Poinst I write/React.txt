@@ -83,4 +83,29 @@ if we are in jsx the {} means that u can write js inside the{} and if the attrib
 we can do this : attributeName={ObjectName}  insted of attributeName="attributeValue"  .
 we can write any thing instead of objectName if its js and sort of a data thing. like a var or a returned function.
 
+as long as the attribute is not and predefined we can write the attribute value inside " " and if its  a javascript statement
+we can write our custom attribute valuse iside { } and {{ }} is and object inside jsx.
+
+when we are extending a class from other classes we are calling the extending class's constructor.
+the poins it if we write down our constructor we are overwriting the extending class constructor and we need to call the super()
+method interms of calling the extending constructor inside our constructor and pass the props we are receaving from our
+constructor to the super method to call the extending class's constructor inside our constructor and add construct statement
+inside down forthor more.
+
+if we dont write our constructor and extend our class the extendig class's constructor will be called bye default and since we 
+didnt pass the props we are getting to supert the constructor would have no acces to the props receaved to our class.
+
+
+stateless components are functions returning the object witch is the virtualDOM but statefull components are classes witch have
+methods called render() witch returns the object as virtualDOM and the diferent is that the class can own properties and the most
+important property is the state object an if we change this object the render method runs again and its the hole perpose of react.
+we can change the state with the setState() method.
+
+
+
+
+
+
+
+
 
