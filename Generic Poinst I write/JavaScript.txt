@@ -140,5 +140,8 @@ function.
 The value of this, when used in a function, is the object that "owns" the function. The value of this, when used in an object, is
 the object itself.
 
+if we declaer any variable without var keyword we are not hoisting it but its possible to declare inside any method or workflow
 
+this in the function is the object owns the function and in strict mode the owner is null
 
+in arrow funcctions if we dont write the {} we dont need to write the return keyword.

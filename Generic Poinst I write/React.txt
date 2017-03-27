@@ -105,8 +105,16 @@ inside the function witch return the object virtualDOM or the render() method wi
 is created and its ready and when ever we call the function or call the render method from the class we can use the returned 
 virtualDOM object.
 
-the react jsx onClick attribute is diferent from the html onClick because the html one dont send the e object and for that
-kind of useage we should use the addEventListener method and jsx uses this when we are setting the onClick attributre inside jsx
-elements.
+in the nature of react children dont have access to the parent properties and if we want that access we should send the needed
+property as props object to the children.
+but the parent component has access to the properties of the children by the refs object so  we can go throu the object inidedown.
+-if we want to modify some data inside a parent component we cant do this in the child component but we can declare the function
+inside the parent component and pass it as props to the child component so when we call it in the child we are running a 
+function in the parent and the function has access to the data needed.
+-with the function passing in component we can pass up the e object or any argument up to the parent function or return some
+object(data) too the parent component by the function its slef.
+
+
+
 
 
