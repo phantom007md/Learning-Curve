@@ -6,17 +6,17 @@ the same time.
 
 ------------------Generic---------------------------------------------------
 
---FTP & Web Host Setup (hostgator).
+FTP & Web Host Setup (hostgator).
 
 Basic Terminal usage.
 
---Basic SSH
+Basic SSH
 
 Github Basic
 
---Learnn How Client & Server Talk To Each Other
+Learnn How Client & Server Talk To Each Other
 
---RESTful Web Services / GET POST PUT DELETE request.
+RESTful Web Services / GET POST PUT DELETE request.
 
 ------------------Basic FrontEnd--------------------------------------------
 
@@ -29,27 +29,27 @@ Basic Html
 
 --------------------Pro FrontEnd--------------------------------------------
 
--ES6 (babel)
+ES6 (babel)
 
 CSS Tools 
-	--SASS
-	--FrameWork Semantic
+	SASS
+	FrameWork Semantic
 	Responsive Design
 
 TaskRunner
 	 Gulp
 Dependency Management
-	--Webpack
+	Webpack
 Bower (package management)
 
 *MV Javascript Framework
-	-React.js
-		--Flux
-		--Redux
-		-create-react-app
-	--Angular.js
+	React.js
+		Flux
+		Redux
+		create-react-app
+	Angular.js
 
---Unit Testing
+Unit Testing
 	enzyme  (best react testing tool)
 	karma
 	Mocha
@@ -63,7 +63,7 @@ Bower (package management)
 
 remaining to explore.
 
---Node.js
+Node.js
 
 
 
