@@ -1,0 +1,192 @@
+
+~/.vimrc has the settings needed to vim
+
+
+-----comands-----
+:!command  any shel commands
+
+:w write
+
+:q quit
+
+:e edit
+
+:pwd current working directory.
+
+:wq  write and quit to terminal
+
+:tabedit edit the file and open a new tab.
+
+:bd buffer delete for closing a  tab we are inside.
+
+:sp horezental split 
+:vps vertical split
+:q to qiut a split
+
+:bp buffer previos
+:ls list all the buffers avalible.
+
+:bufdo bd!  close all buffers.
+
+:b3 go to the third buffer in the list.
+
+:e . opens a list to edit any file in the curent directory
+browes the current working derectory.
+
+:Gsearch  grep search -using ag-
+
+ctrl ^ previos edit point
+
+g + t switch between tabs
+
+di (  delete inside ()
+
+ci '  change inside '
+
+vi [  select inside [
+
+va {  select inside the {} with the {} its self
+
+da {  delete inside the {} with the {} its self
+
+r replace some word with other
+
+-----vineger commands------
+
+d will make a new directory
+
+% create new file
+
+D delete the directory or file.
+
+
+
+
+-----Ctrl P Settings------
+
+ctrl + d can swithc betwin path and name search
+
+
+
+
+
+------Ctags Settings------
+
+ctrl + ]  if we are in the method it will jump to the method where defined.
+
+:!ctags -R re generate the file for ctags inside vim.
+
+:tag
+
+:tn  next tag
+
+:tp  prev tag
+
+:ts  select from all tags avalible and we can type the number to jump to it.
+
+
+
+
+
+
+------tpoope serrounding------
+
+c + s ' "    change serrounding ' to "
+
+d + s '      delete serrounding ' 
+
+d + s + t    delete serrounding tag c s t  <div class="foo">
+
+d + s + t    change serrounding tag    
+
+select visualy and  S  '         insert serrounding '
+
+select visualy and  S           insert serrounding tag 
+
+
+
+
+
+
+----keyword commands---------
+
+. key repeat last thing we did.
+
+v visual mode and we can visually select the lines.
+V (shift + v) select the hole line and if we move up and down we will select the
+hole upper or lower line
+
+m followedByAnyKey  like -> m a  mark this line with a keyword
+
+' 0 back where u left off.
+
+' a we will jump to the line we were.
+` A will jump to the line and column we were. upper A means globaly avalible
+-->
+if the followed key ins M (like capital word) it will be marked in global
+buffers.
+
+d delete
+
+u undo
+
+ctrl + r redo
+
+y copy  -- yank 
+
+yy yank the full line.
+
+yyp  will yank and paste it in the bottom of that line.
+
+y i w yank the inner word
+
+/ search    /word   it will search for  word.
+
+,<space>  remove highlight search
+
+zz make the selected line in the center or the page.
+
+gt swith tabs
+
+ctrl + w + (HJKL) for swithcing betweent the splits.
+
+ctrl +w +w for toggle between splits.
+
+ctrl + w + | will expand the current split.
+
+ctrl + w + = will make the splits equal.
+
+J will join the line below to the upper one
+
+ctrl + o goes back to prev edit point
+
+ctrl + i goes forward to next edit point
+
+dd delete the line.
+
+O enter line above
+
+o enter line under
+
+----modes---------
+i insert mode
+
+esc normal mode
+
+v visual mode
+
+-----movement-----
+j down
+k up
+l left
+h right
+
+----extra details------
+imap maping for insert mode
+nmap maping for normol mode
+
+
+
+
+
+

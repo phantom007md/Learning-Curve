@@ -1,0 +1,22 @@
+yarn add <package...>
+
+yarn add <package...> [--dev/-D]
+
+yarn add <package...> [--peer/-P]
+
+yarn add <package...> [--optional/-O]
+
+yarn add <package...> [--exact/-E]
+
+yarn add <package...> [--tilde/-T]
+
+***yarn global add create-react-app
+
+yarn bin
+
+
+yarn cache ls
+
+yarn cache dir
+
+yarn cache clean
