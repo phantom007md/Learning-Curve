@@ -1,0 +1,66 @@
+commands we are running are in files in the .bin folder and every node_modules 
+has a .bin folder and we can localy init the command we installed in the project
+-it means if we want to run a command we can run the command file localy from
+our .bin in the project instead of runnig the command from the system's .bin
+folder.
+-every command we are installing globaly is sorted in the user .bin command and
+if the command is not found it not in the global .bin folder the --global option
+is needed.
+the command in writen with the bash language
+
+we can run the command without defining a script for it and explcitly type
+./node_modules/.bin/webpack in the commandline to run the command and we are 
+refering to the command localy.
+
+we can define scripts in the package.json file and run local commands.
+in the scripts we are running we can refert to the .bin inside the node_module
+folder and run the command localy
+
+start command doesnt need npm run start and works like npm start
+
+if we want to define a script the structure is like the following line
+this property should be added in the json object we have
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "./node_modules/.bin/webpack"
+  }
+
+webpack commands and options:
+
+webpack -w  ->watch tag  this option only avalibe when webpack is installed 
+globaly and if we are running the command localy we should add the watch option
+in the webpack.config.js file.
+
+babel-core is the core trannspiler.
+
+babel-loader is the webpack loader.
+
+babel v 6 and later dont transpile aoutocaticaly and need presets.
+to add the preset we should install the babel-preset-es2015 with npm
+add the preset in .babelrc like 
+{
+  'presets': ['es2015', 'react']
+}
+and set the query property in webpac.config.js.
+
+loaders will get the file do the task on them and givebac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

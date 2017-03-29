@@ -117,8 +117,7 @@ object(data) too the parent component by the function its slef.
 statefull component are the classes with have properties alongside with the render
 method. the render method will return the virtualDOM as an object like the stateless 
 function do the same with returning. the diference is when we are working with
-classes we define methods and when we are working with functions we are in the 
-method :)
+classes we define methods and whe
 
 
 
