@@ -14,9 +14,9 @@ Basic Terminal usage.
 
 Github Basic
 
---Learnn How Client & Server Talk To Each Other
+-Learnn How Client & Server Talk To Each Other
 
---RESTful Web Services / GET POST PUT DELETE request.
+-RESTful Web Services / GET POST PUT DELETE request.
 
 ------------------Basic FrontEnd--------------------------------------------
 
@@ -39,7 +39,7 @@ CSS Tools
 TaskRunner
 	 Gulp
 Dependency Management
-	--Webpack
+	-Webpack
 Bower (package management)
 
 *MV Javascript Framework
