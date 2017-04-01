@@ -43,7 +43,8 @@ add the preset in .babelrc like
 }
 and set the query property in webpac.config.js.
 
-loaders will get the file do the task on them and givebac
+loaders will get the file do the task on them and giveback some codes witch
+webpack can bundle to a file.
 
 
 

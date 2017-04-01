@@ -29,7 +29,11 @@ Basic Html
 
 --------------------Pro FrontEnd--------------------------------------------
 
+--Git Mastery
+
 -ES6 (babel)
+
+--SVG
 
 CSS Tools 
 	--SASS

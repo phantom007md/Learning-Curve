@@ -1,0 +1,92 @@
+
+Main Subjects
+
+-------------------------HTML-----------------------------
+jade
+	mixin
+
+Emmet
+
+
+
+-------------------------CSS------------------------------
+CSS units
+--css possitioning.
+pseudo elements
+Counters
+--Tooltips
+
+
+
+
+
+---------------------JavaScript---------------------------
+--React 
+	--Flux --Redux  
+
+	------------------------------------------
+
+--JS dirty but interesting ways to do things.
+
+--Rest and Spread Operators.
+
+--String methods
+--Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
+full array methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+JSON.stringify(value[, replacer[, space]]);
+
+--enumrable and none enumrable properties => getOwnPropertyNames
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
+
+	------------------------------------------
+TypeScript
+	--TypeScript - Interfaces
+	--TypeScript - Classes
+	--TypeScript - Objects
+	--TypeScript - Namespaces
+	--TypeScript - Modules
+	--TypeScript - Ambients
+
+
+
+
+
+--------------------------NODE----------------------------
+--express --nosqldb  --myownframework
+	------------------------------------------
+
+
+
+
+
+
+--------------------------GIT-----------------------------
+--Make a basic knowledge summary.
+Gather practical git commands.
+
+
+
+
+
+-------------------------Generic--------------------------
+--Commenting best practices
+--Expandig ur utill any ways
+
+
+
+--------------------------PHP-----------------------------
+--laravel  
+	------------------------------------------
+--PHP Array Constants
+--List of Functions FOR arrays(methods)		
+--String Functions(methods)		http://in.php.net/manual/en/ref.strings.php
+--Identifying Browser & Platform	https://www.tutorialspoint.com/php/php_web_concepts.htm
+
+
+
+
+
+
+
+

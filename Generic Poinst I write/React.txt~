@@ -117,7 +117,43 @@ object(data) too the parent component by the function its slef.
 statefull component are the classes with have properties alongside with the render
 method. the render method will return the virtualDOM as an object like the stateless 
 function do the same with returning. the diference is when we are working with
-classes we define methods and whe
+classes we define methods and when we are working with functions we are in the 
+method :)
+
+since only the component and the childs of that components are rerendered when 
+the state changes the state should be in the top level component.
+
+in react base web designs we dont do any html explicitly.the idia is to use 
+react liberary methods to create a virtualDOM and render that DOM object into
+the actual DOM and the page its self.
+by creating the virtualDOM we make an object in to the memory of the user and 
+any events wants to change the dom should change the virtualDOM first and if
+the state of any component changes by the setState() method we re render the 
+component and all its childs. but this rerender is just happening on the object
+witch we saved in the memory called virtualDOM.
+reactDOM methods like render will diff the last updatet state of the DOM with
+the virtualDOM we rerenderd and just apply the changes are needed and apply the 
+paart changed not the hole DOM.
+when we are rerendering the virtualDOM we are making a new object and replacing
+it with the old one in the memory but only a diference will be rerenderd to the
+DOM with reactDOM render() method.
+
+we have lots of methods in the react and reactDOM classes.
+we use this classes to make the virtualDOM and one of the methods are setState()
+witch changes the state object inside that component and force the render()
+method to rerender the object virtualDOM and replace it the the old one.
+and force the reactDOM render() method to diff the new virtualDOM with the last
+state of the DOM and inject the diference and render them to the 
+
+
+
+
+
+
+
+
+
+
 
 
 

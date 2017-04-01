@@ -194,7 +194,8 @@ that property. Example:
 var nameSymbol = symbol("symb dicsription");
 Object.defineProperty(obj, "name", nameSymbol);
 
---------------------------------------------------------------------------------
+
+
 
 
 

@@ -47,10 +47,14 @@ loaders will get the file do the task on them and giveback some codes witch
 webpack can bundle to a file.
 
 
+"scripts": {
+    "start": "webpack --config mywebpack.config.js"
+}
+This is standard and recommended practice.
 
 
-
-
+Using ExtractTextWebpackPlugin for css load not having the problem to load the 
+hole bundle to style the page.
 
 
 
