@@ -1,0 +1,11 @@
+amount = 2000
+
+add_prefix(number_format(tax(discount(amount, 10))), "$");
+
+
+
+
+discount amount 10
+|> tax
+|> number_format
+|> add_prefix "$"
