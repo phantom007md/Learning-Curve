@@ -4,6 +4,15 @@ A ladder optimized based on Knowledge NEEDS.
 Its obviouse that everything u learn should be practiced and get wrote down at
 the same time.
 
+-------------------Next-----------------------------------------------------
+React DOC - Flux  - Redux - 
+
+----------------Today
+Modular practice
+
+pubsub
+
+
 ------------------Generic---------------------------------------------------
 
 --FTP & Web Host Setup (hostgator).
@@ -33,10 +42,10 @@ Basic Html
 
 -ES6 (babel)
 
---SVG
+-SVG
 
 CSS Tools 
-	--SASS
+	-SASS
 	--FrameWork Semantic
 	Responsive Design
 
@@ -65,7 +74,7 @@ Bower (package management)
 
 ------------------BackEnd---------------------------------------------------
 
-remaining to explore.
+->remaining to explore.
 
 --Node.js
 

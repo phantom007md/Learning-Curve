@@ -4,6 +4,15 @@ A ladder optimized based on Knowledge NEEDS.
 Its obviouse that everything u learn should be practiced and get wrote down at
 the same time.
 
+-------------------Next-----------------------------------------------------
+React DOC - Flux  - Redux - 
+
+----------------Today
+Modular practice
+
+pubsub
+
+
 ------------------Generic---------------------------------------------------
 
 --FTP & Web Host Setup (hostgator).
@@ -14,9 +23,9 @@ Basic Terminal usage.
 
 Github Basic
 
---Learnn How Client & Server Talk To Each Other
+-Learnn How Client & Server Talk To Each Other
 
---RESTful Web Services / GET POST PUT DELETE request.
+-RESTful Web Services / GET POST PUT DELETE request.
 
 ------------------Basic FrontEnd--------------------------------------------
 
@@ -33,16 +42,17 @@ Basic Html
 
 -ES6 (babel)
 
+-SVG
 
 CSS Tools 
-	--SASS
+	-SASS
 	--FrameWork Semantic
 	Responsive Design
 
 TaskRunner
 	 Gulp
 Dependency Management
-	--Webpack
+	-Webpack
 Bower (package management)
 
 *MV Javascript Framework
@@ -64,7 +74,7 @@ Bower (package management)
 
 ------------------BackEnd---------------------------------------------------
 
-remaining to explore.
+->remaining to explore.
 
 --Node.js
 
