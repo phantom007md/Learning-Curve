@@ -1,51 +1,64 @@
-Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+Hoisting is JavaScript's default behavior of moving declarations to the top of 
+the current scope.
 Hoisting applies to variable declarations and to function declarations.
 Because of this, JavaScript functions can be called before they are declared.
-If a function is called with missing arguments (less than declared), the missing values are set to: undefined.
+If a function is called with missing arguments (less than declared), the missing
+values are set to: undefined.
 if (y === undefined) {y = 0} 
 
 JavaScript functions have a built-in object called the arguments object.
-The argument object contains an array of the arguments used when the function was called (invoked).
-If a function changes an argument's value, it does not change the parameter's original value.
+The argument object contains an array of the arguments used when the function 
+was called (invoked).
+If a function changes an argument's value, it does not change the parameter's
+original value.
 Changes to arguments are not visible (reflected) outside the function.
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 if oneline : boolian ? true statement : false statement
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 *current target is the element u add the listener on.
-*target is the element the mouse exactly click on and like svg wich the target ma be as the path attribute.
----------------------------------------------------------------------------------------------------------------------
-in doing innerHTML +=  --> 	the operation would get the hole innerHTML as a string and add some string to it 
-			   	and replace it as a hole new string entierly not adding the string in the buttom.
-				it add the full string after modifing it.
----------------------------------------------------------------------------------------------------------------------
-when we are using stringtemplates and using ${} to insert some variables inside the string if the variable changed in any ways
-we should re assign the stringtemplate and regenerate it in order to render the string with the changed Vars i it.
----------------------------------------------------------------------------------------------------------------------
-defining properties in classes is only acceptable when we need to add some properties(accessable features inside<private> or outside<public> of the class)
-to the class and have a reason to add them.and bing a global variable to other methods is not a reeason.
----------------------------------------------------------------------------------------------------------------------
-use const if the variable is not going to change in other places and it will make the let keyword tell u im getting change somewhere!
----------------------------------------------------------------------------------------------------------------------
-insted of calling the method to fill a property and use the property after its nice to make the methor return the property
-and call the method in a local Var.
----------------------------------------------------------------------------------------------------------------------
+*target is the element the mouse exactly click on and like svg wich the target
+ma be as the path attribute.
+--------------------------------------------------------------------------------
+in doing innerHTML +=  --> 	the operation would get the hole innerHTML as a
+string and add some string to it and replace it as a hole new string entierly 
+not adding the string in the buttom.
+it add the full string after modifing it.
+--------------------------------------------------------------------------------
+when we are using stringtemplates and using ${} to insert some variables inside
+the string if the variable changed in any ways
+we should re assign the stringtemplate and regenerate it in order to render the
+string with the changed Vars i it.
+--------------------------------------------------------------------------------
+defining properties in classes is only acceptable when we need to add some 
+properties(accessable features inside<private> or outside<public> of the class)
+to the class and have a reason to add them.and bing a global variable to other
+methods is not a reeason.
+--------------------------------------------------------------------------------
+use const if the variable is not going to change in other places and it will
+make the let keyword tell u im getting change somewhere!
+--------------------------------------------------------------------------------
+insted of calling the method to fill a property and use the property after its
+nice to make the methor return the property and call the method in a local Var.
+--------------------------------------------------------------------------------
 console.log(a,b,"somestring");
 console.error();
----------------------------------------------------------------------------------------------------------------------
---Rest and Spread Operators ***********************************************************************************
+--------------------------------------------------------------------------------
+--Rest and Spread Operators ****************************************************
 example console.log();
----------------------------------------------------------------------------------------------------------------------
-function declarations are parsed before their execution. On the other hand, function expressions are parsed only
+--------------------------------------------------------------------------------
+function declarations are parsed before their execution. On the other hand,
+function expressions are parsed only
 when the script engine encounters it during execution.
----------------------------------------------------------------------------------------------------------------------
-if the method or property is not getting accessed by the instance u make it should be static instead.
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+if the method or property is not getting accessed by the instance u make it
+should be static instead.
+--------------------------------------------------------------------------------
 
 function functionName(){
-	//the hole function will be a var holding a string in it by returning the string
-	return "someString"
+//the hole function will be a var holding a string in it by returning the string
+return "someString"
 }
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 var myString = '123';
 var myNum = Number(myString);
 typeof myNum;
@@ -53,7 +66,7 @@ typeof myNum;
 var myNum = 123;
 var myString = myNum.toString();
 typeof myString;
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 var browserType = mozilla
 browserType.indexOf('zilla'); // 2 cuz the zilla start from index 2 (0 1 2);
 browserType.slice(0,3); // moz
@@ -62,50 +75,62 @@ browserType.slice(2); // zilla
 var radData = 'My NaMe Is MuD';
 radData.toLowerCase();
 radData.toUpperCase();
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 addEventListener() and removeEventListener()
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 var myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
 Now let's split it at each comma:
 
 var myArray = myData.split(',');
-myArray; // ["Manchester", "London", "Liverpool", "Birmingham", "Leeds", "Carlisle"]
+myArray; //
+["Manchester", "London", "Liverpool", "Birmingham", "Leeds", "Carlisle"]
 
 var myNewString = myArray.join(',');
 myNewString;// "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle"
 
-Let's use push() first — note that you need to include one or more items that you want to add to the end of your array.
+Let's use push() first — note that you need to include one or more items that
+you want to add to the end of your array.
 var newLength = myArray.push('Bristol');
 
-Removing the last item from the array is as simple as running pop() on it. Try this:
+Removing the last item from the array is as simple as running pop() on it.
+Try this:
 myArray.pop();
----------------------------------------------------------------------------------------------------------------------
-a constructor function is a function gets the arguments for and obj and return the obj when we call it.
+--------------------------------------------------------------------------------
+a constructor function is a function gets the arguments for and obj and return
+the obj when we call it.
 
 Try entering this into your browser's JavaScript console:
 var person1 = new Object();
-This stores an empty object in the person1 variable. You can then add properties and methods to this object using dot or bracket notation as desired; try these examples:
+This stores an empty object in the person1 variable. You can then add properties
+and methods to this object using dot or bracket notation as desired; try these
+examples:
 person1.name = 'Chris';
 person1['age'] = 38;
 person1.greeting = function() {
   alert('Hi! I\'m ' + this.name + '.');
 };
 
-JavaScript has a built-in method called create(), which allows you to create a new object instance based on an existing object.
+JavaScript has a built-in method called create(), which allows you to create a
+new object instance based on an existing object.
 Try this in your JavaScript console:
 var person2 = Object.create(person1);
----------------------------------------------------------------------------------------------------------------------
-returning a value in any function make the fanction name a variable holding that value and anytime a functon is
-responsible for generating or creating something maybe it should return some thing and get used in other places.
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+returning a value in any function make the fanction name a variable holding that
+ value and anytime a functon is
+responsible for generating or creating something maybe it should return some 
+thing and get used in other places.
+--------------------------------------------------------------------------------
 In JavaScript, the thing called this, is the object that "owns" the current code.
-The value of this, when used in a function, is the object that "owns" the function.
+The value of this, when used in a function, is the object that "owns" the
+function.
 
-if a function does not belong to any object it will be belonged to a global object like window object which is the most global object in JS
+if a function does not belong to any object it will be belonged to a global
+object like window object which is the most global object in JS
 in web browsers. and this keyword will refer to the window object.
 
 Invoking a Function as a Method when u add a function to an object property
--->Invoking a function as an object method, causes the value of this to be the object itself.
+-->Invoking a function as an object method, causes the value of this to be the
+object itself.
 
 function Person(name){
 	this.name = name;
@@ -115,39 +140,51 @@ var person1 = new Person("PHANTOM");
   The value of this will be the new object created when the function is invoked.
 
 
-call() and apply() are predefined JavaScript function methods. Both methods can be used to invoke a function, and both methods
-must have the owner object as first parameter.
+call() and apply() are predefined JavaScript function methods. Both methods can
+be used to invoke a function, and both methods must have the owner object as
+first parameter.
 ->
-In JavaScript strict mode, the first argument becomes the value of this in the invoked function, even if the argument is not an object.
-In "non-strict" mode, if the value of the first argument is null or undefined, it is replaced with the global object.
----------------------------------------------------------------------------------------------------------------------
-(x = !x) ? a:b  // toggling every time ->check the x value in boolian state and change it everytime it execute.
----------------------------------------------------------------------------------------------------------------------
-property names or object keys can be variables containing string numbers or symbols or explicit values in '' and such.
----------------------------------------------------------------------------------------------------------------------
+In JavaScript strict mode, the first argument becomes the value of this in the
+invoked function, even if the argument is not an object.
+In "non-strict" mode, if the value of the first argument is null or undefined,
+it is replaced with the global object.
+--------------------------------------------------------------------------------
+(x = !x) ? a:b  // toggling every time ->check the x value in boolian state and
+change it everytime it execute.
+--------------------------------------------------------------------------------
+property names or object keys can be variables containing string numbers or 
+symbols or explicit values in '' and such.
+--------------------------------------------------------------------------------
 ObjectsEDIT
-In computer science, an object is a value in memory which is possibly referenced by an identifier.
+In computer science, an object is a value in memory which is possibly referenced
+ by an identifier.
 
 Properties
 The data property and the accessor property.
----------------------------------------------------------------------------------------------------------------------
-when we are adding an event to an element the function we are calling when the event triggers, receaves the (e) arg as the first
-prameter and its an object witch has methods and properties of its self and the inhereted __proto__s. 
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+when we are adding an event to an element the function we are calling when the 
+event triggers, receaves the (e) arg as the first prameter and its an object 
+witch has methods and properties of its self and the inhereted __proto__s. 
+--------------------------------------------------------------------------------
 inside a class (object) when we are declaring a property as a variable contains 
 value or method we have access to that property by the (this)
-object and we use this.propName to call it. so this can be the object its self inside the class and can be the object own the
+object and we use this.propName to call it. so this can be the object its self
+inside the class and can be the object own the
 function.
-The value of this, when used in a function, is the object that "owns" the function.
-The value of this, when used in an object, is
-the object itself.
-this in the function is the object owns the function and in strict mode the owner is null
----------------------------------------------------------------------------------------------------------------------
-if we declaer any variable like ( a = 2 ) without var keyword we are not hoisting it but its getting declared . and its getting declared in the global scope not in the defind
-scope like var has the function scope or let has the bracket scope.
----------------------------------------------------------------------------------------------------------------------
-in arrow funcctions if we dont write the {} we dont need to write the return keyword.
----------------------------------------------------------------------------------------------------------------------
+The value of this, when used in a function, is the object that "owns" the 
+function.
+The value of this, when used in an object, is the object itself.
+this in the function is the object owns the function and in strict mode the 
+owner is null
+--------------------------------------------------------------------------------
+if we declaer any variable like ( a = 2 ) without var keyword we are not 
+hoisting it but its getting declared . and its getting declared in the global 
+scope not in the defind scope like var has the function scope or let has the 
+bracket scope.
+--------------------------------------------------------------------------------
+in arrow funcctions if we dont write the {} we dont need to write the return 
+keyword.
+--------------------------------------------------------------------------------
 cunstructors are functions creating objects and are called with the new keyword
 in js
 
@@ -195,7 +232,8 @@ var nameSymbol = symbol("symb dicsription");
 Object.defineProperty(obj, "name", nameSymbol);
 
 --------------------------------------------------------------------------------
-
+A "constructor" in JavaScript is "just" a function that happens to be called 
+with the new operator.
 
 
 

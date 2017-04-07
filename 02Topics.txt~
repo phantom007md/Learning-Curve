@@ -5,7 +5,7 @@ Main Subjects
 jade
 	mixin
 
-Emmet
+--Emmet
 
 
 
@@ -22,7 +22,16 @@ Counters
 
 ---------------------JavaScript---------------------------
 --React 
+	--Flux --Redux 
 
+--react validations 
+
+--set and WeakSet and ... data structure.
+
+--get and set functions in properties.
+
+--enumrable and none enumrable properties => getOwnPropertyNames
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
 	------------------------------------------
 
 --JS dirty but interesting ways to do things.

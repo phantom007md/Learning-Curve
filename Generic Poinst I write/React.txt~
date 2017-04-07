@@ -6,11 +6,14 @@ the hole program is a single component and other component will go inside down.
 
 npm can run some commands and they are custom cammmands 
 
-->npm start //its in the local app in bin folder. --npm run start or run any script u made the allias in package.json
+->npm start //its in the local app in bin folder. --npm run start or run any 
+script u made the allias in package.json
  "build": "react-scripts build"
 
 
-module bundlers like rollup and such will read the -import- commands and if ./ doesnt exist they dont start from the current directory and start from node_modules directory.
+module bundlers like rollup and such will read the -import- commands and 
+if ./ doesnt exist they dont start from the current directory and start from 
+node_modules directory.
 
 the entry file in react app is index for importing roles.
 
@@ -20,105 +23,146 @@ element (jsx html elements) properties are dome attributes not html attributes.
 
 every component is a module and shuld be in a seperate file.
 
---when ever we write jsx we are writing react.createElement() method and creating an object called virtualDOM.
-this method accept props object in the second prameter and in jsx sintax u can write the props down as key values as the attributes of each element.
-and the content witch can be the third and furthor prameter in the method should be between the jsx element as nested content. 
-best practice in developing a react app is to make an app.js and import all of the components,the pieces of virtualDOMs
-and return one big virtualDOM and we render this Object in to a target bye reactDOM.render(appObject, target)
+--when ever we write jsx we are writing react.createElement() method and 
+creating an object called virtualDOM.
+this method accept props object in the second prameter and in jsx sintax u can 
+write the props down as key values as the attributes of each element.
+and the content witch can be the third and furthor prameter in the method should
+be between the jsx element as nested content. 
+best practice in developing a react app is to make an app.js and import all of 
+the components,the pieces of virtualDOMs
+and return one big virtualDOM and we render this Object in to a target bye 
+reactDOM.render(appObject, target)
 	reactDOM.render(<app />, target);
 
-nested jsx elements (objects) are the children and the third property and furthor in react.createElement() method.
-when ever your calling a jsx element like <app attributeName="atributeValue" /> ur calling a react.createElement() method (function)
-and the attributes are sended as props object (as the second prameter in the method).
-the atribute name in the jsx sintax is not the html attribute name and its the dom attributre name:
+nested jsx elements (objects) are the children and the third property and 
+furthor in react.createElement() method.
+when ever your calling a jsx element like <app attributeName="atributeValue" />
+ur calling a react.createElement() method (function)
+and the attributes are sended as props object 
+(as the second prameter in the method).
+the atribute name in the jsx sintax is not the html attribute name and its the
+dom attributre name:
 for example class attribute name is className in jsx in many diferent reasons.
-and u can get that props object in the method and use it there inside down the method.
-the attributes in the jsx element (object) are the properties of of that object sended to the funcion creating that object as props.
+and u can get that props object in the method and use it there inside down the
+method.
+the attributes in the jsx element (object) are the properties of of that object
+sended to the funcion creating that object as props.
 
-the main component witch contains all the emported components will be app.js and the app will be
+the main component witch contains all the emported components will be app.js 
+nd the app will be
 imported to index.js and get renderd with reactDOM.render().
-reactDOM.render() gets the target and render the last result of the virtualDOM with is made
+reactDOM.render() gets the target and render the last result of the virtualDOM 
+with is made
 from peaces of virtualDOM objects (components) in to the target we give it.
 
-the react library has some classes (objects) and the react class has been exported bye default
+the react library has some classes (objects) and the react class has been 
+exported bye default
   export default className;
 one of the other classes is the -component- class is used from react library.
-react library has the job to make the virtual dom, the object its self and rendering this object in to the DOM
+react library has the job to make the virtual dom, the object its self and 
+rendering this object in to the DOM
 is the duty of the reactDOM library.
-reading jsx is the transpiler duty and has nothing to do with the react its self.
-jsx is a suger sintax for the react methods. and simulate the react.createElement() method with and easier sintax at all.
-one of the react original methods is the react.createElement() and uses react class to create the element in the virtual dom.
+reading jsx is the transpiler duty and has nothing to do with the react
+its self.
+jsx is a suger sintax for the react methods. and simulate the 
+react.createElement() method with and easier sintax at all.
+one of the react original methods is the react.createElement() and uses react
+class to create the element in the virtual dom.
 reactDom will render this Virtual dom to the dom when its necesery.
 
-reactDOM.render() is the render method witch renders the virtualDOM in to the target element in the mani DOM.
-and this method is the processor to dif the virtualDOM and the DOM it self and renders the virtualDOM in to 
-the main DOM if any diference was occurd between the virtualDOM object and the root target DOM under controll.
+reactDOM.render() is the render method witch renders the virtualDOM in to the
+target element in the mani DOM.
+and this method is the processor to dif the virtualDOM and the DOM it self and
+renders the virtualDOM in to the main DOM if any diference was occurd between
+the virtualDOM object and the root target DOM under controll.
 
 
-render() method in the classes witch are got extended from the Component class has the job to return
-the child and the little virtualDOM object in terms of importing it to another coponent or in the main component
-witch is the app.js in default situations.
+render() method in the classes witch are got extended from the Component 
+class has the job to return the child and the little virtualDOM object in 
+terms of importing it to another coponent or in the main componentwitch is the
+app.js in default situations.
 
 
-react (by its own methods) creates a virtualDOM and reactDOM(by its methods) render that object in to the target element
-in the DOM its self.
+react (by its own methods) creates a virtualDOM and reactDOM(by its methods)
+render that object in to the target elementin the DOM its self.
 
-reactDOM has a render method (ReactDOM.render()) wich renders the given object from the virtualDOM
-(witch is created bye the react.createElement()) in to the browser and every jsx element we are typing is an
-react.createElement and this element will be created in the virtualDOM.
+reactDOM has a render method (ReactDOM.render()) wich renders the given object
+from the virtualDOM (witch is created bye the react.createElement()) in to the
+browser and every jsx element we are typing is anreact.createElement and this
+element will be created in the virtualDOM.
 
 react.createElement($1,$2,$3) 
-	$1 Is the element name if its a string passed and if an object pass will be the element object itself 
+	$1 Is the element name if its a string passed and if an object pass will be
+	the element object itself 
 	(we pass and object in terms of passing properties in the next args)
 	$2 Is the properties object and contains key value content in it.
-	$3 and furthor that is the content or contents in side down the eement and can be elements created or string and ....
+	$3 and furthor that is the content or contents in side down the eement and
+	can be elements created or string and ....
 
-statefull components shuld be classes and get extended from the Component class to use the setState() method and make
-changes undrestandble.
+statefull components shuld be classes and get extended from the Component class
+to use the setState() method and make changes undrestandble.
 
-if we want to write jsx nice and neet and have an acceptable indentig we can use () in front of the return of the render method
-in the component and move the first jsx tag to a lower line to fit the indent rules.
+if we want to write jsx nice and neet and have an acceptable indentig we can
+use () in front of the return of the render method in the component and move
+the first jsx tag to a lower line to fit the indent rules.
 
-if we are in jsx the {} means that u can write js inside the{} and if the attribute value contains js objact to pass that out
-we can do this : attributeName={ObjectName}  insted of attributeName="attributeValue"  .
-we can write any thing instead of objectName if its js and sort of a data thing. like a var or a returned function.
+if we are in jsx the {} means that u can write js inside the{} and if the
+attribute value contains js objact to pass that out we can do this :
+attributeName={ObjectName}  insted of attributeName="attributeValue"  .
+we can write any thing instead of objectName if its js and sort of a data thing.
+like a var or a returned function.
 
-as long as the attribute is not and predefined we can write the attribute value inside " " and if its  a javascript statement
-we can write our custom attribute valuse iside { } and {{ }} is and object inside jsx.
+as long as the attribute is not and predefined we can write the attribute value
+inside " " and if its  a javascript statement
+we can write our custom attribute valuse iside { } and {{ }} is and object
+inside jsx.
 
-when we are extending a class from other classes we are calling the extending class's constructor.
-the poins it if we write down our constructor we are overwriting the extending class constructor and we need to call the super()
-method interms of calling the extending constructor inside our constructor and pass the props we are receaving from our
-constructor to the super method to call the extending class's constructor inside our constructor and add construct statement
-inside down forthor more.
+when we are extending a class from other classes we are calling the extending
+class's constructor.
+the poins it if we write down our constructor we are overwriting the extending
+class constructor and we need to call the super()
+method interms of calling the extending constructor inside our constructor and
+pass the props we are receaving from our
+constructor to the super method to call the extending class's constructor inside
+our constructor and add construct statement inside down forthor more.
 
-if we dont write our constructor and extend our class the extendig class's constructor will be called bye default and since we 
-didnt pass the props we are getting to supert the constructor would have no acces to the props receaved to our class.
+if we dont write our constructor and extend our class the extendig class's 
+constructor will be called bye default and since we  didnt pass the props we are
+getting to supert the constructor would have no acces to the props receaved 
+to our class.
 
 
-stateless components are functions returning the object witch is the virtualDOM but statefull components are classes witch have
-methods called render() witch returns the object as virtualDOM and the diferent is that the class can own properties and the most
-important property is the state object an if we change this object the render method runs again and its the hole perpose of react.
+stateless components are functions returning the object witch is the virtualDOM
+but statefull components are classes witch have methods called render() witch
+returns the object as virtualDOM and the diferent is that the class can own 
+properties and the most important property is the state object an if we change
+this object the render method runs again and its the hole perpose of react.
 we can change the state with the setState() method.
 
-inside the function witch return the object virtualDOM or the render() method witch returns an object virtualDOM the virtualDOM
-is created and its ready and when ever we call the function or call the render method from the class we can use the returned 
-virtualDOM object.
+inside the function witch return the object virtualDOM or the render() method 
+witch returns an object virtualDOM the virtualDOM is created and its ready and 
+when ever we call the function or call the render method from the class we can 
+use the returned virtualDOM object.
 
-in the nature of react children dont have access to the parent properties and if we want that access we should send the needed
-property as props object to the children.
-but the parent component has access to the properties of the children by the refs object so  we can go throu the object inidedown.
--if we want to modify some data inside a parent component we cant do this in the child component but we can declare the function
-inside the parent component and pass it as props to the child component so when we call it in the child we are running a 
-function in the parent and the function has access to the data needed.
--with the function passing in component we can pass up the e object or any argument up to the parent function or return some
-object(data) too the parent component by the function its slef.
+in the nature of react children dont have access to the parent properties and
+if we want that access we should send the needed property as props object to 
+the children.
+but the parent component has access to the properties of the children by the 
+refs object so  we can go throu the object inidedown.
+-if we want to modify some data inside a parent component we cant do this in the
+child component but we can declare the function inside the parent component and
+pass it as props to the child component so when we call it in the child we are
+running a function in the parent and the function has access to the data needed.
+-with the function passing in component we can pass up the e object or any
+argument up to the parent function or return some object(data) too the parent 
+component by the function its slef.
 
-statefull component are the classes with have properties alongside with the render
-method. the render method will return the virtualDOM as an object like the stateless 
-function do the same with returning. the diference is when we are working with
-classes we define methods and when we are working with functions we are in the 
-method :)
+statefull component are the classes with have properties alongside with the
+render method. the render method will return the virtualDOM as an object like 
+the stateless  function do the same with returning. the diference is when we 
+are working with classes we define methods and when we are working with 
+functions we are in the method :)
 
 since only the component and the childs of that components are rerendered when 
 the state changes the state should be in the top level component.
@@ -143,7 +187,94 @@ we use this classes to make the virtualDOM and one of the methods are setState()
 witch changes the state object inside that component and force the render()
 method to rerender the object virtualDOM and replace it the the old one.
 and force the reactDOM render() method to diff the new virtualDOM with the last
-state of the DOM and inject the diference and render them to the 
+state of the DOM and inject the diference and render them to the DOM its self.
+
+importing components to other omponents means that u place the imported 
+component on top of the main component and placing classes on top of each other
+
+reacrDOM.render() method gets a third option and its a callback function.
+
+setState() method in the reac class will change the state and cause a rerender.
+if we want to change the state without using setState() method we can change
+the state and use Component.forceUpdate() method to render any update tothe DOM
+
+react diffs the DOM with the virtualDOM with each render pass we cause with the
+setState() or other ways and only render the diferents in to the DOM.
+the diff task will be applied with the last state of the DOM witch react saves
+not the true DOM.
+
+to easy handle the state we make it in the top level component and pass it throw
+the props to cthe child components.
+
+where we use <Component /> to call a component object ,we are calling the 
+virtualDOM object we made with a function(method) and we are calling a function
+infact.
+the attributes we pass in with the jsx syntax are all gatherd in the property
+object and got send as props object.
+this function(method)  is react.createElement() and 
+getting props literal object contains properties as the second prameter and
+receaving this properties object as props (argument) in the component.
+if the component is a class we are receaving it as this.props  .
+
+props are imutable.if we want to change the state in the top level component in
+order to rerender the hole copmponent with its children we pass  in the state 
+in the props and by the props are imutable if we want to chang the props we
+should change the state and it cause a rerender.
+
+in react an owner is a component that sets the props to other components.
+react can render an array of components(virtualDOM objects) to the DOM.
+
+making default properties will help us when we are using a property and its a 
+possibility that the props are not sended in diferent situations.
+making default properties getDefauldPorps(){return {}} and this method can 
+return an object(props) with default property and values in it.
+
+react props validation:?
+
+the event handlers in react like onClick send a synthetic Event if we log the e
+passed to us.
+
+when we create callback for the eventHandlers react auto bind the this keyword
+to the component. (this keyword will be the component in the function we are
+making to create the event and getting the e in it)
+
+for event deligation react maps events to the top level node and dispatch them 
+when needed.
+
+in react because virtualDOM keeps rerendering its hard to keep track of a 
+sinngle Node.
+we should assign a ref property to a component as an attribute(in jsx) and
+access the component with the this.refs object.
+with the ref property we access the component and can call getDOMNode() method
+to get the actual DOMNode back and extract data out of the DOM
+
+component life cycle: the phases tha have methods controle the component
+render and rerender.
+1) mounting phase: 
+this method will run before the component renders to the page.
+componentWillMount(){};
+this method will run when the component is done rendering to the page.
+componentDidMount(){};
+
+2) updating phase:
+this method will receive the nextProps and triggers before the component 
+receive the props and we can do sort of stuff on it. 
+componentWillReceiveProps(nextProps){};
+this method returns boolian and use theis two args to do some validation to
+run the rerender or render.
+shouldComponentUpdate(nextProps,nextState){}
+
+3)unmounting phase"
+this phase we can do clean up when our component is getting removed or 
+unmounted.
+we can unmount the component with react unmountComponentAtNode(theComp)
+
+
+
+
+
+
+
 
 
 
