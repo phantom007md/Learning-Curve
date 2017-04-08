@@ -5,7 +5,7 @@ Next topics to learn deppends on the
 LADDER and TOPIC section
 -------------------Next-------------------------------
 
---React Vids
+React Vids
 
 --React learncode
 
@@ -33,4 +33,16 @@ best practices documentation. research.
 make a documentation about the new utill
 
 regex explanation
+
+
+function is_git_repository {
+  git branch > /dev/null 2>&1
+}
+
+
+
+
+
+
+
 

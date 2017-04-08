@@ -271,9 +271,14 @@ we can unmount the component with react unmountComponentAtNode(theCompinentName)
 
 the method to use this is componentWillUnmountI(){}; method
 
+each one of the array indexes can be a jsx element and if u print the var 
+contains the array ,in jsx inside the {} jsx will rendr the components in the 
+array for u and its like u coppied those indexes inside jsx directly
 
-
-
+inside the component folder if any mainComponent.js has other components.js 
+related inside it we create a folder with the name of the maniComponent we are
+making and placing the child components.js of the mainComponent.js inside the
+mainComponent folder we made in the component folder.
 
 
 
