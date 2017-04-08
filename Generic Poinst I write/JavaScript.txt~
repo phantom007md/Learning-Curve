@@ -1,11 +1,14 @@
-Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+Hoisting is JavaScript's default behavior of moving declarations to the top of 
+the current scope.
 Hoisting applies to variable declarations and to function declarations.
 Because of this, JavaScript functions can be called before they are declared.
-If a function is called with missing arguments (less than declared), the missing values are set to: undefined.
+If a function is called with missing arguments (less than declared), the missing
+values are set to: undefined.
 if (y === undefined) {y = 0} 
 
 JavaScript functions have a built-in object called the arguments object.
-The argument object contains an array of the arguments used when the function was called (invoked).
+The argument object contains an array of the arguments used when the function 
+was called (invoked).
 If a function changes an argument's value, it does not change the parameter's
 original value.
 Changes to arguments are not visible (reflected) outside the function.
@@ -231,6 +234,21 @@ Object.defineProperty(obj, "name", nameSymbol);
 --------------------------------------------------------------------------------
 A "constructor" in JavaScript is "just" a function that happens to be called 
 with the new operator.
+--------------------------------------------------------------------------------
+inside javascript when u write a code its simply means nothing to js engine.
+when u assign that code to some variable it will be evaluated first and assigned
+to the variable next.
+so if we want to use a statement without assigning it to a variable and you 
+want it to be evaluated in the engin and be able to get used we should wrap it
+inside the ().
+so an anonymus function  can be wraped inside () and get executed by ()  cuz
+we evaluated it once beore.
+its like this. (function(){})()
+or:
+	var a = 1
+	a.toString() // "1" // 1 is avaluated and assign
+	(1).toString() // "1";
+	1.toString() // error; // 1 is not evaluated and means nothing.
 
 
 

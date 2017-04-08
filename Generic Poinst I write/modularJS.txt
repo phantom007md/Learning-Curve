@@ -1,0 +1,40 @@
+-self-containd module
+  -everything to do with my module is in my module
+  -no global variables
+  -if a module manages more than one thing it should be split up
+-separation of concerns
+-DRY code: dont repeat yor self
+efficient DOM usage
+  -very few selections and more DOM caching.
+-no memory leaks
+  -all events can be unbound
+
+object literal module:
+  the object will be in the self-invoked funcions so the variable sotores the 
+  object wont be a global varibale.
+
+  the object would have a init function witch run other functions as DOMCacher()
+  bindEvents() render(){this will render the changes to the DOM} and ... so on.
+
+  the obj.init() will be called inside the slef-invoked function.
+  
+  all we want to declare inside a method would be part of the object we are 
+  making so we declare them as: this.property = value  .
+
+
+Revealing Pattern:
+
+  in the revealing pattern we make an anonymus function and asign it the a
+  variable and the function will return an object with only the public 
+  properties we added to the object returned.
+  so the function will run and declare var s and functions and return them as 
+  methods in the object returned
+
+
+
+
+
+
+
+
+
