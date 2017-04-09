@@ -2,4 +2,14 @@ npm install pubsub-js
 
 https://github.com/mroderick/PubSubJS 
 
-tutorial
+pubsub is a static calss has methods called subscribe/on and publish/emit.
+
+an component would subscribe to the events and add an event to the events object inside the pubsub
+class.
+so any module can add an event to the class and subscribe the event there. with the clusure of 
+Javascript the listeners (functions listen to the event and fire after the event happens) will
+run with the context they where in when where subscribed.\
+
+some other component will emit the event and tell the pubsub class(object) to run the event it 
+holds
+the pubsub object will trigger the listeners witch where subscribed by other components.
