@@ -30,7 +30,8 @@ Revealing Pattern:
   so the function will run and declare var s and functions and return them as 
   methods in the object returned
 
-
+the public methods and properties names are presets with ( underscore _ )
+like _render() and so on.
 
 
 
