@@ -16,3 +16,78 @@ might very well exist, but its value just happens to be set to undefined.
 Object.getPrototypeOf(a1).doSomething, 
 Object.getPrototypeOf(Object.getPrototypeOf(a1)).doSomething etc., 
 until it's found or Object.getPrototypeOf returns null.
+
+classical inheretance:
+
+we use function objName(){} as the cunstructor. if we call that function with 
+the new keyword we make a new object:
+
+function objName(){
+	this.name = "value"
+}
+
+var myObj = new objName();//we are making an object from the constructor method
+
+the this keyword will refer to the brand new object we are making.
+
+the object its slef has a property called prototype and its a link to another
+object.
+
+we define our methods witch we want to share with all the instances in the
+prototype object and the properties inside the constructor function with the 
+this keyword.
+
+we are making inheritance with linking the mainObj prototype to our object.
+we did inherit the methods.
+for properties we can call() the mainObj constructor function inside our
+constuctor and bind the this keword to the new context witch is our new function
+cunstructor.
+
+
+prototype inheritance:
+
+in this way we are using the Object.create() method to create a new object.
+we are passing the object prototype as the first prameter and creating the
+object with the prototype.
+
+for creating properties and methods for the object we made we can use
+Object.defineProperty() to cteate properties. this method accept options and 
+we can see the deffinition in the renfrences.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

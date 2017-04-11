@@ -12,4 +12,7 @@ does not traverse the prototype chain.
 Note: It is not enough to check whether a property is undefined. The property
 might very well exist, but its value just happens to be set to undefined.
 
-
+[[Prototype]] is looked at recursively, i.e. a1.doSomething, 
+Object.getPrototypeOf(a1).doSomething, 
+Object.getPrototypeOf(Object.getPrototypeOf(a1)).doSomething etc., 
+until it's found or Object.getPrototypeOf returns null.
