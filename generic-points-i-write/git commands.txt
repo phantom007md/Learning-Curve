@@ -2,7 +2,7 @@ git is not working with the file its self its working with the content in it.
 
 git init					initialzing the git repo
 
-git status                              	get the status of the workflow
+git status                  get the status of the workflow
 
 git log						get the commit log
 
