@@ -1,2 +1,131 @@
-hi
+git status  //difference between working_directory staging_index and repository
+
+-------------------------file handling with git---------------------------------
+--untracked files:
+we should add them to to git
+
+--staged files:
+git add fileName
+git add . // all files witch are not tracked will get tracked.
+changes in the working directory will be added to staging index when we add 
+them.
+
+--commited files and changes:
+from the staging index we can commit them to the repository.
+git commit -m"massage of this commit"
+
+if we make a change it will be (modified) in the working directory until we 
+stage it and commit it after that staging with git add and commiting with
+git commit
+
+if modified files are in the working directory we can directly add and commit 
+them to the repository by git commmit -am""
+git commmit -am"commit massage"
+
+-------------------------Git diff basics----------------------------------------
+diff if the tool to see the diference between two files and git uses that
+so we use git diff.
+git diff // will diff the repository the version the head is pointing at and 
+whats in the working_directory and the staging index. 
+so any thing that is different with the working directory will be get diffed.
+
+git diff --staged // will diff the staging index with the repository(the 
+version the head is pointing at).
+
+-------------------------Git removing-------------------------------------------
+git rm fileName //remove the file and make the changes ready to be commited
+if we delete the file manualy it will hava a massage deleted but changes not 
+to be commited.because when we are doing a delete we dont make a add 
+so we should use git rm fileName (git remove) to do a git add like command. 
+		
+-------------------------Git renaming-------------------------------------------
+rename and moving files in git:
+when we rename a file and git status the situation we see a deleted file and
+an untracked file is shown.
+when we add the untracked file to the staging index we will see that the git
+undrestands the file has ben renamed if the data is 50% close to the prevus file
+
+renaming the file in git we will use move command
+
+git mv first_fileName second_fileName// take care of adding it to the staging
+index right away
+
+-------------------------Undoing changes----------------------------------------
+--undoing working directory changes // we want to tell git to get the file from
+the specific version we tell him and undo the changes to the repository.
+
+git checkout namedThing // we tell git go get the namedThing that i gave u and 
+make my working directory looks like that.
+
+git checkout -- filename.html // we use -- to tell git that use the 
+current branch (--) and get the file we tell u and make my working directory 
+looks like it.
+
+--undo changes from stagin index (unstaging changes):
+
+git reset HEAD fileName // go look at the HEAD(tip of the current branch) 
+insede the repository and make the staging index looks like the HEAD insede
+the repository.
+
+
+--undoing changes inside the repository(undoing commits we did):
+
+git commit --amend -m "new massage for the last commmit we want to edit"
+
+with the git commit --amend -m"" // we are commiting the changes we have 
+inside the staging index and this commit is overwriting the last commit we had
+cuz the commit amended the last commit.
+if we don have changes in the staging index we can change the massage with 
+amending the commit. and replacing the commit with a new commit witch has new
+massage.
+
+if we want to change commits in the older versions we retreve the version make 
+our changes and make a new commit witch contains the changes inside it.
+
+git checkout SHA -- fileName.html //in this version refrenced checkout, witch we
+refrence to a refrence and checkout a file the checkedouted file will be inside 
+the staging index so we can commit --amend this staging index to the last commit
+we have.
+
+reverting the commits using git revert.mirror the commit.
+git revert SHA // this will revert and undo any changes we have done.
+we will have a popup to have tha chance to change the commit massage.
+
+git revert -n sha //wont commit and put it inside the staging index
+
+
+--------------------Undoing multiple commits changes----------------------------
+
+using git reset
+
+git reset --soft sha //just move the HEAD pointer to the sha we refrenced and 
+dont make changes to the staging index or the working directory.
+
+git reset --mixed sha // its the default option and it will move the HEAD 
+pointer to the sha and changes the index to match repository and 
+dont change the working directory.
+
+git reset --hard sha // move the HEAD pointer to the sha and  changes staging 
+index and working directroy to match repository.
+
+git reset will move the HEAD pointer to the commit we give it the sha and place
+the HEAD pointer on the commit we refrenced it.
+
+if we make a new commit we rewine the hole commits from the sha we renrenced 
+and furthor. so until we didnt make any new commit we have the chance to get 
+the pointer back to  the later commits if we have saved the sha  for the next
+commits
+
+track 8 --> remaining -ignor:
+
+
+
+
+
+
+
+
+
+
+
 

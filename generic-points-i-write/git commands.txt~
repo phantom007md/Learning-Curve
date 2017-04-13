@@ -17,7 +17,7 @@ git commit -am "massage"			add and commit.
 git commit --amend -m "new massage"  		commit the staging index on the 
 last commit and overwrite the last commit and change the massage of the commit
 if we don have changes in the staging index we can change the massage with 
-amending the commit.
+amending the changes.
 
 git checkout 545656as54(SHA) -- filename 	put the selected commit in the stageig index and u can amend it to the last commit. (undoing commits with older commits)
 
