@@ -7,12 +7,6 @@ LADDER and TOPIC section
 
 React Vids
 
---React learncode
-
---Modular practice
-
---pubsub
-
 --react Doc
 --react validations 
 
@@ -30,14 +24,8 @@ redux  ....
 Make a Dom introuduction.and complite the dom article.
 
 best practices documentation. research.
-make a documentation about the new utill
 
 regex explanation
-
-
-function is_git_repository {
-  git branch > /dev/null 2>&1
-}
 
 
 

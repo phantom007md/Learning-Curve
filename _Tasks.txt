@@ -5,14 +5,6 @@ Next topics to learn deppends on the
 LADDER and TOPIC section
 -------------------Next-------------------------------
 
-React Vids
-
---React learncode
-
---Modular practice
-
---pubsub
-
 --react Doc
 --react validations 
 
@@ -30,7 +22,6 @@ redux  ....
 Make a Dom introuduction.and complite the dom article.
 
 best practices documentation. research.
-make a documentation about the new utill
 
 regex explanation
 

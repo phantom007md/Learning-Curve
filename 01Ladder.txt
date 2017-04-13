@@ -31,11 +31,15 @@ Basic Html
 
 -- Modular Programings
 
+--Design Patterns JS
+
 --Git Mastery
 
 -ES6 (babel)
 
--SVG
+--Babel
+
+-SVG -Google Map 
 
 CSS Tools 
 	-SASS
@@ -53,7 +57,7 @@ Bower (package management)
 		--Flux
 		--Redux
 		-create-react-app
-	--Angular.js
+	--Angular.js (2)
 
 --Unit Testing
 	enzyme  (best react testing tool)
@@ -70,6 +74,8 @@ Bower (package management)
 ->remaining to explore.
 
 --Node.js
+
+--GO lang
 
 
 

@@ -71,7 +71,7 @@ TypeScript
 
 --------------------------GIT-----------------------------
 --Make a basic knowledge summary.
-Gather practical git commands.
+-Gather practical git commands.
 
 
 
