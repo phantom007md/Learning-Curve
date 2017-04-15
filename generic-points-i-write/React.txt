@@ -281,9 +281,13 @@ making and placing the child components.js of the mainComponent.js inside the
 mainComponent folder we made in the component folder.
 
 
-
-
-
+react components have their children componentsin the props object, example:
+we can use :
+class Router extends Component {
+  render() {
+    return this.props.children;
+  }
+}
 
 
 

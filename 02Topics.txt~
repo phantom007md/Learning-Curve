@@ -1,6 +1,11 @@
 
 Main Subjects
 
+-----------------------Routing----------------------------
+html5 browser history
+
+window on hash change.
+
 -------------------------HTML-----------------------------
 jade
 	mixin
@@ -24,9 +29,9 @@ Counters
 --React 
 	--Flux --Redux 
 
---react validations 
+--react validations
 
---set and WeakSet and ... data structure.
+--map set and WeakSet and ... data structure.
 
 --get and set functions in properties.
 
@@ -71,7 +76,7 @@ TypeScript
 
 --------------------------GIT-----------------------------
 --Make a basic knowledge summary.
-Gather practical git commands.
+-Gather practical git commands.
 
 
 

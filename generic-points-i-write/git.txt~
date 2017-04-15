@@ -65,7 +65,7 @@ looks like it.
 
 git reset HEAD fileName // go look at the HEAD(tip of the current branch) 
 insede the repository and make the staging index looks like the HEAD insede
-the repository.
+the repository. and move the staged file name 
 
 
 --undoing changes inside the repository(undoing commits we did):
@@ -116,7 +116,7 @@ and furthor. so until we didnt make any new commit we have the chance to get
 the pointer back to  the later commits if we have saved the sha  for the next
 commits
 
-track 8 --> remaining -ignor
+track 8 --> remaining -ignor:
 
 
 

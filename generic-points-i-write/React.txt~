@@ -278,12 +278,16 @@ array for u and its like u coppied those indexes inside jsx directly
 inside the component folder if any mainComponent.js has other components.js 
 related inside it we create a folder with the name of the maniComponent we are
 making and placing the child components.js of the mainComponent.js inside the
-mainComponent folder we made in the component folder
+mainComponent folder we made in the component folder.
 
 
-
-
-
+react components have their children componentsin the props object, example:
+we can use :
+class Router extends Component {
+  render() {
+    return this.props.children;
+  }
+}
 
 
 
