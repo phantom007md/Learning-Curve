@@ -1,0 +1,27 @@
+Decorator pattern
+
+1)more complicated inheritance.
+
+2)Wraps on object.
+
+3)Protects existing objects.
+
+4)Allowss extended functionality
+
+
+
+this pattern used toadd new functionality to an existing object without bing 
+abtrusive.
+
+it will make more complite inheritance and inherit the mani object and add more
+functionality to the object. 
+
+the decorator pattern wraps an object so u can take an object and put more 
+methods on it.
+the point is we have our object and its working perfectly. we dont want to 
+edit the object in case of making unwanted errors and conflicts.
+as lon as the object is working perfectly we dont need to edit the code.
+the object is used every where in the application and any change may be a
+problem.
+so we decorate the code and add more functionality without breaking the code.
+
