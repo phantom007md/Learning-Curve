@@ -1,0 +1,35 @@
+Singletone pattern
+
+1)Remembers the last time you used it.
+
+2)Hands the same instance back
+
+3)CommonJs in Node will cahce the require we do.
+we can effectively create a singletone if we run the module repo when we export
+it.
+
+
+var TaskRepo = (function () {
+    var taskRepo;
+    function createRepo() {
+        var taskRepo = new Object("Task");
+        return taskRepo;
+    }
+    return {
+        getInstance: function () {
+            if (!taskRepo) {
+                taskRepo = createRepo();
+            }
+            return taskRepo;
+        }
+    };
+})();
+
+var repo1 = TaskRepo.getInstance();
+var repo2 = TaskRepo.getInstance();
+
+if(repo1 === repo2){
+    console.log("Same TaskRepo") 
+}
+--------------------------------------------------------------------------------
+
