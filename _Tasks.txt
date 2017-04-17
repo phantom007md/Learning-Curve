@@ -35,7 +35,10 @@ redux summery
 --react Doc
 --react validations
 
+js documentation best practices
+http://usejsdoc.org/tags-global.html
 
+navac projects page template
 
 
 ----------Long Pridicted topics-----------------------
