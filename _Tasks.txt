@@ -10,13 +10,17 @@ design patterns deep study
 
 js wierd and awesome learncode. + Summery
 
+rework on javascript.txt and react.txt to make better flow for more
+thing to add
+
 reac-router-dom practice.
 
 html5 browser history
 
 window on hash change.
 
-react-routing-dom DOCs form css tricks and github(the version is so important)
+react-routing-dom DOCs form css tricks and github
+(the version is so important)
 
 flux learncode
 

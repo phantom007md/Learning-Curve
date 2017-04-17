@@ -1,3 +1,45 @@
+Module pattern is a toolbox witch contains functions inside it to use.
+these methods are related to to do a Task withc is seprete from other tasks.
+
+this pattern is simply an object literal witch has functions as keys and values.
+
+var module = {
+	method: function(){...},
+	nextMethod: function(){...}
+}
+
+we create the module as a variable and assign an object to it and create 
+functions as keys and values in the object.
+in order to access the functions we can cal it like module.methodname();
+
+the diference between module pattern and constructor pattern is that generaly
+in the module patern we will have one object, one service to handle so it dose
+all my work an a spesific task.
+
+
+Revealing Module pattern:
+
+we can create a self-invoked function witch returns the object we want as
+a module but in this case we can have private methods and variable inside the
+function scope and only reveale the APIs we want othe to get access to.
+and donnt give access to the variables we are using inside the module.
+
+
+var module = (function(){
+	_privateVar = 'value'
+	_privateMethod(){...}
+	method(){...};
+	nextMethod(){...};
+
+	//this is the object module we are returning and storing in the 
+	//var module
+	return {
+		method: method,
+		nextMethod: nextMethod
+	}
+
+})();
+
 -self-containd module
   -everything to do with my module is in my module
   -no global variables

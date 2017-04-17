@@ -1,0 +1,79 @@
+this pattern is creating new instances form the class(in java or c#);
+
+Using the new keyword
+putting a new keyword infront of a fucntion and creatin a cosntructor function
+out of that function.
+
+-->the new keyword will do this things:
+
+1) Creates brand new object.
+2)link that object to an object prototype.
+3)binds this to the new object scope.
+4)returns this.
+
+function ObjectName(pram1. pram2){
+	this.pram1 = pram1;
+	this.pram2 = pram2;
+	this.toString = function () {
+		return this.pram1 + ' ' + this.pram2;	
+	}
+}
+
+the one issue we have here that the function toString() is getting 
+reinitialized and recreated for every object we are creating.
+
+we should use a prototype.
+prototype is an encapsu;ation of properties that an object links to.
+
+function ObjectName(pram1. pram2){
+	this.pram1 = pram1;
+	this.pram2 = pram2;
+}
+
+ObjectName.prototype.toString = function () {
+		return this.pram1 + ' ' + this.pram2;	
+	}
+
+so every time we have a new copy of ObjectName we dont make a copy from the
+toString() function and all instances will share one method.
+
+
+-----------CONVERTING THE CONSTRUCTOR PATTERN TO CLASS PATTERN------------------
+
+the class keyword is a syntactal sugre and its the constructor pattern in some
+ways but less code to write.
+
+class ObjectName {
+	constructor(pram1, pram2){
+		this.pram1 = pram1;
+		this.pram2 = pram2; 
+	}
+	//this is the methos simulation for the class syntax
+	toString(){
+		return this.pram1 + ' ' + this.pram2;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

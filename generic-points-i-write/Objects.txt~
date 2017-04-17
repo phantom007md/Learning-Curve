@@ -1,0 +1,108 @@
+Creating Objects:
+---------------------------------------------------
+var obj = {}; //obk=ject literal
+
+var obj2 = Object.create(Object.protorype) // receave the prototype as the
+fitst prameter.
+
+var obj3 = new Object(); // Object is a constructor function and we use the 
+new keyword to make objects forom that constructor.we can have our own
+constructors.
+
+
+
+Assigning Keys and Values to the object we created with the 3 ways above:
+---------------------------------------------------
+1) Using dot notation.
+
+	Assigning Keys and Values:
+	obj.pram = 'new value'  //pram: key  &  'new value': value ->string
+
+	Accessing Value by the key:
+	console.log(obj.pram); // new value
+
+2) Using Square bracket notation:
+
+	Assigning Keys and Values:
+	obj['pram'] = 'new value'  //pram: key  &  'new value': value ->string
+		
+	Assigning Key as a variable in this case.
+	var key = 'keyName';
+	obj[key] = 'new value';
+
+	Accessing Value by the key:
+	console.log(obj['pram']); // new value
+
+	Accessing Value by the key variable:
+	console.log(obj[key]); // new value
+	console.log(obj['keyName']); // new value
+	
+
+
+Define Property
+---------------------------------------------------
+Object.defineProperty() is a method on the Object object witch allow us to
+configure the property we are creating.
+
+Object.defineProperty(obj, 'name', {
+	value: 'myname',
+	writable: true,
+	enumerable: true,
+	configurable: true
+})
+
+value: 'myname',  	// the value
+writable: true,     // i can create constance and change the property
+					   false means readonly
+enumerable: true,   // it will shoe up or wont show up in the for in loop or 	
+					   object.keys();
+configurable: true	// im allowd or not allowd to change the configuration
+					   of these items.(the configuration we are doing righ now)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
