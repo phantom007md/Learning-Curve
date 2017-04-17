@@ -35,6 +35,8 @@ redux summery
 --react Doc
 --react validations
 
+error handling and try catch and throw
+
 js documentation best practices
 http://usejsdoc.org/tags-global.html
 
