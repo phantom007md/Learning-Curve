@@ -1,0 +1,104 @@
+react-router-dom is a class providing methods to do routing on react.
+we can render the Router component we import from react-rout-dom to the dom.
+when we render the Router component with the ReactDOM.render() method we should
+wrap the Route components in a div and place it inside the router component.
+becaouse the Router component returns the this.props.
+children and the childeren of the Router component should be one state ment
+to get returned ,cuz the as we know the return cant return multy statement and
+multy components and we cant make multy children for the Router component.
+
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Redirect,
+  Link
+} from 'react-router-dom';
+
+we should render the Router component to the dom with the ReactDOM.render()
+method.
+the Router component has its own Route S and will load the one we tell it.
+
+------------------------------------------
+<Route path={'/'} component={Home} />
+<Route path={'/'} render={ ()=>{...} } />
+
+path : it is the path the browser goes and Router component undrestand witch
+Route should get renderd. the path sepecifies the route for that path.
+
+component : it is the component should get renderd and specifies the 
+Route component.
+
+render : it will render the component inline and specifies the component should
+render. the diference between component and render is that in the component you
+can refrence the component but in the render u write your code down in that 
+line.
+
+when the Route component gets rendered what it does?
+it will render ouComponent we passed to the Route by the props we passed to
+the Route.
+we can receave ourComponent in two ways in the Route component.
+1) by the component={} attribute we can pass in the name of the component.
+but in this way we cant pass in any props to ourComponent and the props 
+ourComponent will get is the props the Router component will assign to
+ourComponent when return ourComponent like the code blow:
+
+	<Route path={'/'} component={Home} />
+
+	class Route extends Component {
+    	render() {
+           	 const Comp = this.props.component;
+       		 return <Comp match="" handler="" />
+    	}
+	}
+
+if we want to pass custom props to ourComponent we can use the second way:
+2)is to use the render={} prop in the Route component.
+in this way we can pass in a function to the Route component.
+the Route component will run the function and pass in the props it want to
+assign to ourComponent to the function it get as its args.
+
+so we can use that props and add the props we receave as args to our props ww
+want to pass in to ourComponent. like the code blow
+
+	  <Route path={'/articles'} render={(props) => {
+		//we are spreading the props we get from the Route component and 
+		//pass it to ourComponent as we pass our custom props also.
+        return <About {...props} match={props.match} name="Mhee" />
+      }} />
+
+//this is how the Route component may be working to run our funtion and pass
+//the props ro our function
+class Route extends Component {
+    render() {
+        if( this.props.component) {
+            const Comp = this.props.component;
+
+        } else if(this.props.render) {
+			//this is the object the Router component will pass.
+            return this.props.render({match: '', handler: ''});
+        }
+        return <Comp match="" handler="" />
+    }
+}
+
+
+this two Components will generate and anchor link <a></a> with a modified 
+href="" attribute.
+the generated href will decide to go to what route we have
+the point is  we used BrowserHistory as BrowserRouter class. so we can use 
+hashChange class(not sure what is its name) for doing the route stuff
+
+	<Link to={'/music/1'}>The title of first music</Link>
+	<NavLink to={'/musics'} activeClassName='selected'>Go to Musics</NavLink>
+
+
+
+
+
+
+
+
+
+
+
