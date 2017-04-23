@@ -9,9 +9,11 @@ jade
 
 
 
+
+
 -------------------------CSS------------------------------
 CSS units
---css possitioning.
+--CSS possitioning.
 pseudo elements
 Counters
 --Tooltips
@@ -20,19 +22,33 @@ Counters
 
 
 
+-----------------------Routing----------------------------
+html5 browser history
+
+window on hash change.
+
+
+
+
+
 ---------------------JavaScript---------------------------
+
+--Modular Programings
+
+--Design Patterns JS
+
 --React 
 	--Flux --Redux 
 
---react validations 
+--react routing
 
---set and WeakSet and ... data structure.
+--react validations
+
+--map set and WeakSet and ... data structure.
 
 --get and set functions in properties.
 
---enumrable and none enumrable properties => getOwnPropertyNames
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
-	------------------------------------------
+------------------------------------------
 
 --JS dirty but interesting ways to do things.
 
@@ -40,14 +56,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 --String methods
 --Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
-full array methods
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-JSON.stringify(value[, replacer[, space]]);
 
---enumrable and none enumrable properties => getOwnPropertyNames
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
-
-	------------------------------------------
+------------------------------------------
 TypeScript
 	--TypeScript - Interfaces
 	--TypeScript - Classes
@@ -58,22 +68,9 @@ TypeScript
 
 
 
-
-
---------------------------NODE----------------------------
---express --nosqldb  --myownframework
-	------------------------------------------
-
-
-
-
-
-
 --------------------------GIT-----------------------------
 --Make a basic knowledge summary.
-Gather practical git commands.
-
-
+-Gather practical git commands.
 
 
 
@@ -84,9 +81,14 @@ Gather practical git commands.
 https://en.wikipedia.org/wiki/Integrated_development_environment
 
 
+--------------------------NODE----------------------------
+--express --nosqldb  --myownframework
+------------------------------------------
+
+
 --------------------------PHP-----------------------------
 --laravel  
-	------------------------------------------
+------------------------------------------
 --PHP Array Constants
 --List of Functions FOR arrays(methods)		
 --String Functions(methods)		http://in.php.net/manual/en/ref.strings.php

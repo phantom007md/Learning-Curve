@@ -1,0 +1,87 @@
+this pattern create object for us.
+some times the creation of an object can be deficaulte for us and it needs some
+configurations so we let a factory function handle that for us. simplify and
+hide lots of that complexity for us.
+
+1)simplfy object creation.
+
+2)creating different objects base on need.
+
+3)Repository creation.(a repository witch contain methods to do the repo work)
+
+
+
+-----------------factory pattern example for creating repos---------------------
+var repoFactory = function () {
+
+    this.getRepo = function (repoType) {
+        if (repoType === 'task') {
+            var taskRepo = require('./taskRepository')();
+            return taskRepo;
+        }
+        if (repoType === 'user') {
+            var userRepo = require('./userRepository')();
+            return userRepo;
+        }
+        if (repoType === 'project') {
+            var projectRepo = require('./projectRepository')();
+            return projectRepo;
+        }
+    }
+};
+
+module.exports = new repoFactory;
+
+
+
+----------------------------Repo factory with cache-----------------------------
+var repoFactory = function () {
+
+    this.getRepo = function (repoType) {
+        if (repoType === 'task') {
+            if (this.taskRepo) {
+                console.log('Retrieving from cache');
+                return this.taskRepo;
+            } else {
+                this.taskRepo = require('./taskRepository')();
+                // config -- 
+                return this.taskRepo;
+            }
+
+        }
+        if (repoType === 'user') {
+            var userRepo = require('./userRepository')();
+            return userRepo;
+        }
+        if (repoType === 'project') {
+            var projectRepo = require('./projectRepository')();
+            return projectRepo;
+        }
+    }
+};
+
+module.exports = new repoFactory;
+
+
+
+------repo factory with better minifying names and no caching problems----------
+
+var repoFactory = function(){
+    var repos = this; 
+    var repoList = [{name:'task', source:'./taskRepository'},
+                   {name:'user', source:'./userRepository'},
+                   {name:'project', source:'./projectRepository'}];
+    
+    repoList.forEach(function(repo){
+        repos[repo.name] = require(repo.source)()
+    });
+};
+
+
+module.exports = new repoFactory;
+
+
+
+
+
+

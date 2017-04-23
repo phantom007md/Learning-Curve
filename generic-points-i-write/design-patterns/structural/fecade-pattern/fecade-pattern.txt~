@@ -1,0 +1,12 @@
+Fecade pattern
+-------------------------------------------
+this pattern used to provide a simplified interface to a complicated system.
+
+1)fecade is a fron of a building. we dont see the nastyness indside the 
+building happening. we just see a nice clean fron wall to the building.
+it can be other chaos inside the building but we dont see that.
+
+2)fecade hides the complixity for us
+
+3)simplifies tyhe interface
+jquery is a fecade gives us cleane interfac e to work with the DOM \.

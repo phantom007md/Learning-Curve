@@ -2,19 +2,22 @@ git is not working with the file its self its working with the content in it.
 
 git init					initialzing the git repo
 
-git status                              	get the status of the workflow
+git status                  get the status of the workflow
 
 git log						get the commit log
 
 git log branchName				get the commit log of the writen branchName		        	
 
-git checkout -- filename           		checkout the file in the current branch.
+git checkout -- fileName.html         		checkout the file in the current branch.
 
 git reset HEAD filename             		the filename get reseted to whats in the head(the head point to the tip of the current branch means the last commit)
 
 git commit -am "massage"			add and commit.
 
-git commit --amend -m "new massage"  		change the last comiit with the current one or change the massage of the last commit.
+git commit --amend -m "new massage"  		commit the staging index on the 
+last commit and overwrite the last commit and change the massage of the commit
+if we don have changes in the staging index we can change the massage with 
+amending the changes.
 
 git checkout 545656as54(SHA) -- filename 	put the selected commit in the stageig index and u can amend it to the last commit. (undoing commits with older commits)
 
@@ -128,9 +131,9 @@ git stash list								show stash list
 	stash{0}: branchName:stash massage
 	stashNum
 
-git tash show stash{0}							shows the diff stats
+git stash show stash{0}							shows the diff stats
 
-git tash show -p stash{0}						shows the diff stats more 
+git stash show -p stash{0}						shows the diff stats more 
 
 git stash pop								get the stash back and remove it from stash.
 git stash apply								get the stash back only.
@@ -164,14 +167,15 @@ git clone url directoryFileName
 
 13.6 vid remaining
 
+------------------------new command need to be reworked-------------------------
+git diff --staged // will diff the staging index with the repository(the 
+					 version the head is pointing at).
 
+git status  //difference between working_directory staging_index and repository
 
+git rm fileName
 
-
-
-
-
-
+git mv first_fileName second_fileName
 
 
 

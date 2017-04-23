@@ -4,10 +4,9 @@ A ladder optimized based on Knowledge NEEDS.
 Its obviouse that everything u learn should be practiced and get wrote down at
 the same time.
 
--------------------Next-----------------------------------------------------
-React DOC - Flux  - Redux - 
-
 ------------------Generic---------------------------------------------------
+
+--Routing
 
 --FTP & Web Host Setup (hostgator).
 
@@ -27,18 +26,16 @@ Basic Html
 
 -CSS
 
--Basic JavaScript
+Basic JavaScript
 
 
 --------------------Pro FrontEnd--------------------------------------------
 
--- Modular Programings
-
---Git Mastery
-
 -ES6 (babel)
 
--SVG
+--Babel
+
+-SVG -Google Map 
 
 CSS Tools 
 	-SASS
@@ -56,7 +53,7 @@ Bower (package management)
 		--Flux
 		--Redux
 		-create-react-app
-	--Angular.js
+	--Angular.js (2)
 
 --Unit Testing
 	enzyme  (best react testing tool)
@@ -70,9 +67,9 @@ Bower (package management)
 
 ------------------BackEnd---------------------------------------------------
 
-->remaining to explore.
-
 --Node.js
+
+--GO lang
 
 
 

@@ -3,41 +3,55 @@ Tasks i should do reguardless of the ladder timeings.
 
 Next topics to learn deppends on the
 LADDER and TOPIC section
+
 -------------------Next-------------------------------
 
-React Vids
+js wierd and awesome learncode. + Summery
 
---React learncode
+html5 browser history
 
---Modular practice
+window on hash change.
 
---pubsub
-
---react Doc
---react validations 
+react-routing-dom DOCs form css-tricks and github
+(the version is so important)
+https://reacttraining.com/react-router/web/guides/quick-start
 
 flux learncode
 
 flux vids
 
-flux ....
+redux bucky
 
-redux  ....
+redux learncode
 
+redux summery
+
+--React Doc
+--React Validations
+
+js documentation best practices
+http://usejsdoc.org/tags-global.html
+
+error handling and try catch and throw
+
+navac projects page template
+
+----------Long Pridicted Topics-----------------------
+
+linux cource newboston
+
+git documentation
+
+rework on javascript.txt and react.txt to make better flow for more
+thing to add
 
 -----------------toNight------------------------------
 
 Make a Dom introuduction.and complite the dom article.
 
-best practices documentation. research.
-make a documentation about the new utill
+best practices (comment) documentation. research.
 
 regex explanation
-
-
-
-
-
 
 
 

@@ -6,6 +6,8 @@ the same time.
 
 ------------------Generic---------------------------------------------------
 
+--Routing
+
 --FTP & Web Host Setup (hostgator).
 
 Basic Terminal usage.
@@ -18,24 +20,24 @@ Github Basic
 
 -RESTful Web Services / GET POST PUT DELETE request.
 
+MVC
+
 ------------------Basic FrontEnd--------------------------------------------
 
 Basic Html
 
 -CSS
 
--Basic JavaScript
+Basic JavaScript
 
 
 --------------------Pro FrontEnd--------------------------------------------
 
--- Modular Programings
-
---Git Mastery
-
 -ES6 (babel)
 
--SVG
+--Babel
+
+-SVG -Google Map 
 
 CSS Tools 
 	-SASS
@@ -53,7 +55,7 @@ Bower (package management)
 		--Flux
 		--Redux
 		-create-react-app
-	--Angular.js
+	--Angular.js (2)
 
 --Unit Testing
 	enzyme  (best react testing tool)
@@ -67,9 +69,9 @@ Bower (package management)
 
 ------------------BackEnd---------------------------------------------------
 
-->remaining to explore.
-
 --Node.js
+
+--GO lang
 
 
 
