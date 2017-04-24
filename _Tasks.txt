@@ -8,26 +8,29 @@ LADDER and TOPIC section
 
 js wierd and awesome learncode. + Summery
 
-html5 browser history
+redux learncode
 
+html5 browser history
 window on hash change.
+https://reacttraining.com/react-router/web/guides/quick-start
+
+react-router-redux
 
 react-routing-dom DOCs form css-tricks and github
 (the version is so important)
 https://reacttraining.com/react-router/web/guides/quick-start
 
-flux learncode
-
-flux vids
-
-redux bucky
-
-redux learncode
 
 redux summery
 
+router summery
+
+browser history summery
+browser hash 
+
 --React Doc
 --React Validations
+react summery
 
 js documentation best practices
 http://usejsdoc.org/tags-global.html
@@ -48,10 +51,6 @@ thing to add
 -----------------toNight------------------------------
 
 Make a Dom introuduction.and complite the dom article.
-
-best practices (comment) documentation. research.
-
-regex explanation
 
 
 

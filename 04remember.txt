@@ -1,6 +1,10 @@
 Something i need to make habbit for my slef as best practces.
 -------------------------------------------------------------
 
+i should learn and practice something and write it down when every thing is
+done. because noting stuff while learning will be a distract and miss leading 
+for the learning time.
+
 break the code to logical components where every component ca do its work and do it well
 
 commenting every code --research about commenting methods.
