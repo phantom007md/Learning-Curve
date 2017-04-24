@@ -6,8 +6,6 @@ LADDER and TOPIC section
 
 -------------------Next-------------------------------
 
-js wierd and awesome learncode. + Summery
-
 redux learncode
 
 html5 browser history
@@ -31,6 +29,8 @@ browser hash
 --React Doc
 --React Validations
 react summery
+
+js wierd and awesome learncode. + Summery
 
 js documentation best practices
 http://usejsdoc.org/tags-global.html
