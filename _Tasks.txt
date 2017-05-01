@@ -13,6 +13,11 @@ Make a Dom introuduction.and complite the dom article.
 -------------------Next-------------------------------
 
 
+
+https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals
+https://www.youtube.com/watch?v=2j9rSur_mnk
+
+
 html5 browser history
 window on hash change.
 https://reacttraining.com/react-router/web/guides/quick-start
