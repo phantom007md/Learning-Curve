@@ -4,9 +4,14 @@ Tasks i should do reguardless of the ladder timeings.
 Next topics to learn deppends on the
 LADDER and TOPIC section
 
+
+-----------------toNight------------------------------
+
+Make a Dom introuduction.and complite the dom article.
+
+
 -------------------Next-------------------------------
 
-redux learncode
 
 html5 browser history
 window on hash change.
@@ -19,16 +24,8 @@ react-routing-dom DOCs form css-tricks and github
 https://reacttraining.com/react-router/web/guides/quick-start
 
 
-redux summery
-
-router summery
-
-browser history summery
-browser hash 
-
 --React Doc
 --React Validations
-react summery
 
 js wierd and awesome learncode. + Summery
 
@@ -37,7 +34,20 @@ http://usejsdoc.org/tags-global.html
 
 error handling and try catch and throw
 
-navac projects page template
+
+-------------------SummeryS--------------------------
+
+
+redux summery
+
+router summery
+
+browser history summery
+browser hash 
+
+react summery
+
+js wierd and awesome learncode. + Summery
 
 ----------Long Pridicted Topics-----------------------
 
@@ -48,9 +58,6 @@ git documentation
 rework on javascript.txt and react.txt to make better flow for more
 thing to add
 
------------------toNight------------------------------
-
-Make a Dom introuduction.and complite the dom article.
 
 
 
