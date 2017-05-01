@@ -9,8 +9,6 @@ jade
 
 
 
-
-
 -------------------------CSS------------------------------
 CSS units
 --CSS possitioning.
@@ -20,6 +18,12 @@ Counters
 
 
 
+---------------------JavaScript---------------------------
+
+--Modular Programings
+
+--Design Patterns JS
+
 
 
 -----------------------Routing----------------------------
@@ -28,14 +32,7 @@ html5 browser history
 window on hash change.
 
 
-
-
-
----------------------JavaScript---------------------------
-
---Modular Programings
-
---Design Patterns JS
+-------------------------React----------------------------
 
 --React 
 	--Flux --Redux 
@@ -48,6 +45,9 @@ window on hash change.
 
 --get and set functions in properties.
 
+--react svg system
+https://css-tricks.com/creating-svg-icon-system-react/
+
 ------------------------------------------
 
 --JS dirty but interesting ways to do things.
@@ -56,16 +56,6 @@ window on hash change.
 
 --String methods
 --Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
-
-------------------------------------------
-TypeScript
-	--TypeScript - Interfaces
-	--TypeScript - Classes
-	--TypeScript - Objects
-	--TypeScript - Namespaces
-	--TypeScript - Modules
-	--TypeScript - Ambients
-
 
 
 --------------------------GIT-----------------------------
@@ -84,16 +74,6 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 --------------------------NODE----------------------------
 --express --nosqldb  --myownframework
 ------------------------------------------
-
-
---------------------------PHP-----------------------------
---laravel  
-------------------------------------------
---PHP Array Constants
---List of Functions FOR arrays(methods)		
---String Functions(methods)		http://in.php.net/manual/en/ref.strings.php
---Identifying Browser & Platform	https://www.tutorialspoint.com/php/php_web_concepts.htm
-
 
 
 

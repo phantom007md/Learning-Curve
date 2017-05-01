@@ -51,11 +51,10 @@ Dependency Management
 Bower (package management)
 
 *MV Javascript Framework
-	-React.js
+	React.js
 		--Flux
-		--Redux
-		-create-react-app
-	--Angular.js (2)
+		Redux
+		create-react-app
 
 --Unit Testing
 	enzyme  (best react testing tool)
