@@ -259,9 +259,12 @@ componentDidMount(){};
 2) updating phase:
 this method will receive the nextProps and triggers before the component 
 receive the props and we can do sort of stuff on it. 
+
 componentWillReceiveProps(nextProps){};
+
 this method returns boolian and use theis two args to do some validation to
 run the rerender or render.
+
 shouldComponentUpdate(nextProps,nextState){}
 
 3)unmounting phase"
@@ -281,7 +284,7 @@ making and placing the child components.js of the mainComponent.js inside the
 mainComponent folder we made in the component folder.
 
 
-react components have their children componentsin the props object, example:
+react components have their children components in the props object, example:
 we can use :
 class Router extends Component {
   render() {
