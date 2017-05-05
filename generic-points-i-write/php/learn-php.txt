@@ -1,0 +1,100 @@
+Singly quoted strings are treated almost literally, whereas doubly quoted 
+strings replace variables with their values as well as specially interpreting 
+certain character sequences.
+
+-Certain character sequences beginning with backslash (\) are replaced with 
+special characters
+
+-Variable names (starting with $) are replaced with string representations of 
+their values.
+
+"the $somevar will print the value of the somevar in the middle of the string"
+"the {$somevar} will print the value of the somevar in the middle of the string"
+
+\n is replaced by the newline character
+\r is replaced by the carriage-return character
+\t is replaced by the tab character
+\$ is replaced by the dollar sign itself ($)
+\" is replaced by a single double-quote (")
+\\ is replaced by a single backslash (\)
+
+-----------------------------------------------------
+Static Variables
+The final type of variable scoping that I discuss is known as static. In 
+contrast to the variables declared as function parameters, which are destroyed
+ on the function's exit, a static variable will not lose its value when the 
+function exits and will still hold that value should the function be called 
+again.
+-----------------------------------------------------
+Differences between constants and variables are
+There is no need to write a dollar sign ($) before a constant, where as in 
+Variable one has to write a dollar sign.
+
+Constants cannot be defined by simple assignment, they may only be defined 
+using the define() function.
+
+Constants may be defined and accessed anywhere without regard to variable 
+scoping rules.
+
+Once the Constants have been set, may not be redefined or undefined.
+
+define("MINSIZE", 50);
+   
+   echo MINSIZE;
+   echo constant("MINSIZE"); // same thing as the previous line
+-----------------------------------------------------
+__LINE__
+
+The current line number of the file.
+
+2	
+__FILE__
+
+The full path and filename of the file. If used inside an include,the name of 
+the included file is returned. Since PHP 4.0.2, __FILE__ always contains an 
+absolute path whereas in older versions it contained relative path under some 
+circumstances.
+
+3	
+__FUNCTION__
+
+The function name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the function name as it was declared (case-sensitive). In PHP 4 its value is always lowercased.
+
+4	
+__CLASS__
+
+The class name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the 
+class name as it was declared (case-sensitive). In PHP 4 its value is always 
+lowercased.
+
+5	
+__METHOD__
+
+The class method name. (Added in PHP 5.0.0) The method name is returned as it 
+was declared (case-sensitive).
+-----------------------------------------------------
+To concatenate two string variables together, use the dot (.) operator −
+-----------------------------------------------------
+echo strlen("Hello world!"); // length of the string.
+echo strpos("Hello world!","world"); //  is used to search for a string or 
+										 character within a string.
+-----------------------------------------------------
+The PHP header() function supplies raw HTTP headers to the browser and can be used to redirect it to another location. The redirection script should be at the very top of the page to prevent any other part of the page from loading.
+
+The target is specified by the Location: header as the argument to the header() function. After calling this function the exit() function can be used to halt parsing of rest of the code.
+
+<?php
+   if( $_POST["location"] ) {
+      $location = $_POST["location"];
+      header( "Location:$location" );
+      
+      exit();
+   }
+?>
+-----------------------------------------------------
+
+
+
+
+
+
