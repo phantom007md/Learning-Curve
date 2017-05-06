@@ -92,8 +92,14 @@ The target is specified by the Location: header as the argument to the header() 
    }
 ?>
 -----------------------------------------------------
+include() and require() functions copy the hole text inside a php file and 
+place it in the file we required it.
+ the only diffrence is if the script we are importing we have an error the
+include() function will throw a warning and continiue loading the code but
+require() function will throw a fatal error.
 
-
+<?php require("xxmenu.php"); ?>
+-----------------------------------------------------
 
 
 
