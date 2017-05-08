@@ -12,6 +12,8 @@ Make a Dom introuduction.and complite the dom article.
 
 -------------------Next-------------------------------
 
+sourcemap and how we use it
+
 http request and such
 https://www.youtube.com/watch?v=FTAPjr7vgxE
 
