@@ -58,7 +58,9 @@ circumstances.
 3	
 __FUNCTION__
 
-The function name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the function name as it was declared (case-sensitive). In PHP 4 its value is always lowercased.
+The function name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the 
+function name as it was declared (case-sensitive). In PHP 4 its value is always
+lowercased.
 
 4	
 __CLASS__
@@ -79,9 +81,13 @@ echo strlen("Hello world!"); // length of the string.
 echo strpos("Hello world!","world"); //  is used to search for a string or 
 										 character within a string.
 -----------------------------------------------------
-The PHP header() function supplies raw HTTP headers to the browser and can be used to redirect it to another location. The redirection script should be at the very top of the page to prevent any other part of the page from loading.
+The PHP header() function supplies raw HTTP headers to the browser and can be 
+used to redirect it to another location. The redirection script should be at 
+the very top of the page to prevent any other part of the page from loading.
 
-The target is specified by the Location: header as the argument to the header() function. After calling this function the exit() function can be used to halt parsing of rest of the code.
+The target is specified by the Location: header as the argument to the header()
+function. After calling this function the exit() function can be used to halt 
+parsing of rest of the code.
 
 <?php
    if( $_POST["location"] ) {
@@ -100,6 +106,69 @@ require() function will throw a fatal error.
 
 <?php require("xxmenu.php"); ?>
 -----------------------------------------------------
+managing files in php:
+
+So here are the steps required to read a file with PHP.
+
+Open a file using fopen() function.
+
+Get the file's length using filesize() function.
+
+Read the file's content using fread() function.
+
+Close the file with fclose() function.
+-----------------------------------------------------
+Any changes made to an argument in these cases will change the value of the 
+original variable. 
+You can pass an argument by reference by adding an ampersand to the variable
+name in either the function call or the function definition.
+-----------------------------------------------------
+Setting Default Values for Function Parameters
+
+function printMe($param = NULL) {
+            print $param;
+         }
+----------------------------------------------------
+Dynamic Function Calls
+It is possible to assign function names as strings to variables and then treat
+these variables exactly as you would the function name itself. Following 
+example depicts this behaviour.
+
+function sayHello() {
+            echo "Hello<br />";
+         }
+         
+         $function_holder = "sayHello";
+         $function_holder();
+----------------------------------------------------
+The location of the temporary file is determined by a setting in the php.ini 
+file called session.save_path. Before using any session variable make sure you 
+have setup this path.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
