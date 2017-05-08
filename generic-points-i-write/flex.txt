@@ -1,0 +1,100 @@
+item properties
+
+flex: 1;
+
+The flex property specifies the length of the item, relative to the rest of the
+ flexible items inside the same container.
+--------------------------------------------------------------------------------
+flex-basis: 80px;
+
+The flex-basis property specifies the initial length of a flexible item.
+--------------------------------------------------------------------------------
+flex-grow: 1;
+
+The flex-grow property specifies how much the item will grow relative to the 
+rest of the flexible items inside the same container.
+--------------------------------------------------------------------------------
+flex-shrink: 3;
+
+The flex-shrink property specifies how the item will shrink relative to the 
+rest of the flexible items inside the same container.
+--------------------------------------------------------------------------------
+order: -1;
+
+The order property specifies the order of a flexible item relative to the rest
+of the flexible items inside the same container:
+--------------------------------------------------------------------------------
+align-self: flex-start;
+
+The align-self property of flex items overrides the flex container's 
+align-items property for that item. It has the same possible values as the 
+align-items property.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+parent properties
+
+display: flex;
+
+specifies the direction of the flexible items inside the flex container. The default value of flex-direction is row (left-to-right, top-to-bottom).
+flex-direction:
+	row-reverse;
+	column;
+	column;
+
+The justify-content property horizontally aligns the flexible container's items when the items do not use all available space on the main-axis.
+justify-content:
+	flex-start;
+	flex-end;
+	center;
+	space-between;
+	space-around;
+
+The align-items property vertically aligns the flexible container's items when the items do not use all available space on the cross-axis.
+
+align-items:
+	stretch;
+	flex-start;
+	flex-end;
+	center;
+	baseline;
+
+The flex-wrap property specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.
+
+flex-wrap:
+	nowrap;
+	wrap;
+	wrap-reverse;
+
+
+The align-content property modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
+
+align-content:
+	stretch;
+	flex-start;
+	flex-end;
+	center;
+	space-between;
+	space-around;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
