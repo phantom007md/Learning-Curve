@@ -1,0 +1,26 @@
+Array.prototype.reduce()
+
+arr.reduce(callback, [initialValue]);
+
+callback
+Function to execute on each element in the array, taking four arguments:
+
+accumulator
+The accumulator accumulates the callback's return values; it is the accumulated
+value previously returned in the last invocation of the callback, or 
+initialValue, if supplied (see below).
+
+currentValue
+The current element being processed in the array.
+
+currentIndex
+The index of the current element being processed in the array. Starts at index 
+0, if an initialValue is provided, and at index 1 otherwise.
+
+array
+The array reduce was called upon.
+initialValue
+[Optional] Value to use as the first argument to the first call of the callback.
+If no initial value is supplied, the first element in the array will be used. 
+Calling reduce on an empty array without an initial value is an error.
+--------------------------------------------------------------------------------
