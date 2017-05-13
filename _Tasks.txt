@@ -12,28 +12,14 @@ Make a Dom introuduction.and complite the dom article.
 
 -------------------Next-------------------------------
 
+
+lfunctional programing
+
+ui router
+
 sourcemap and how we use it
 
-http request and such
-https://www.youtube.com/watch?v=FTAPjr7vgxE
-
-https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals
-https://www.youtube.com/watch?v=2j9rSur_mnk
-
-
-html5 browser history
-window on hash change.
-https://reacttraining.com/react-router/web/guides/quick-start
-
-react-router-redux
-
-react-routing-dom DOCs form css-tricks and github
-(the version is so important)
-https://reacttraining.com/react-router/web/guides/quick-start
-
-
 --React Doc
---React Validations
 
 js wierd and awesome learncode. + Summery
 

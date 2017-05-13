@@ -305,7 +305,27 @@ second is the prop and we can return a new object with this function and
 we can make use of the prevState we are getting in.
 
 
+conditional rendering:
+function Greeting(props) {
+  const isLoggedIn = props.isLoggedIn;
+  if (isLoggedIn) {
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
 
+we can prevent rendering the component by returning false!
+function WarningBanner(props) {
+  if (!props.warn) {
+    return null;
+  }
+
+  return (
+    <div className="warning">
+      Warning!
+    </div>
+  );
+}
 
 
 
