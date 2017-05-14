@@ -328,6 +328,30 @@ function WarningBanner(props) {
 }
 
 
+When you need to handle multiple controlled input elements, you can add a name
+attribute to each element and let the handler function choose what to do based 
+on the value of event.target.name.
+
+handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+    //*************
+    this.setState({
+      [name]: value
+    });
+}
+
+
+Default Values
+In the React rendering lifecycle, the value attribute on form elements will override the value in the DOM. With an uncontrolled component, you often want React to specify the initial value, but leave subsequent updates uncontrolled. To handle this case, you can specify a defaultValue attribute instead of value.
+
+<input
+      defaultValue="Bob"
+      type="text"
+      ref={(input) => this.input = input} 
+/>
+Likewise, <input type="checkbox"> and <input type="radio"> support defaultChecked, and <select> and <textarea> supports defaultValue.
 
 
 
