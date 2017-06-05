@@ -4,45 +4,65 @@ A ladder optimized based on Knowledge NEEDS.
 Its obviouse that everything u learn should be practiced and get wrote down at
 the same time.
 
+<<< Lots of knowledge is out there and their getting depricated every second. LEARN LITTLE USE MORE >>>
+
+=>Topic is the Basic most important things i need to start working and making things happen!
+=>profassion comes with work and practice and needing something not reading what u may need! cuz u dont!!
+Topic --> Video --> Sample Projects --> FrameWork --> Real Work --> Articles --> Side topic needed learning.
+
+------------------Tooling---------------------------------------------------
+--Vim mastery
+
+--sublime Mastery
+
+--phpstorm mastery
 ------------------Generic---------------------------------------------------
-
---Routing
-
---FTP & Web Host Setup (hostgator).
 
 Basic Terminal usage.
 
+-Routing
+
+--FTP & Web Host Setup (hostgator).
+
 --Basic SSH
 
-Github Basic
+--Github Basic
 
--Learnn How Client & Server Talk To Each Other
+--Learnn How Client & Server Talk To Each Other
 
--RESTful Web Services / GET POST PUT DELETE request.
+--RESTful Web Services / GET POST PUT DELETE request.
 
-MVC
+--MVC
 
 ------------------Basic FrontEnd--------------------------------------------
 
 Basic Html
 
--CSS
+CSS
 
 Basic JavaScript
 
 
 --------------------Pro FrontEnd--------------------------------------------
 
+--Javascript Best Practices
+
+--Documentation Best Practices
+
+--JS CONCEPTS IN DEPTH --object prototypes context clusure and ...
+
 -ES6 (babel)
 
---Babel
+Babel
 
--SVG -Google Map 
+SVG Google Map 
 
 CSS Tools 
-	-SASS
-	--FrameWork Semantic
+	SASS
+	FrameWork Semantic
 	Responsive Design
+
+--YEOMAN
 
 TaskRunner
 	 Gulp
@@ -53,6 +73,7 @@ Bower (package management)
 *MV Javascript Framework
 	React.js
 		--Flux
+		--MobX
 		Redux
 		create-react-app
 
@@ -61,16 +82,36 @@ Bower (package management)
 	karma
 	Mocha
 	Jasmine
-	
-
-
-
 
 ------------------BackEnd---------------------------------------------------
 
---Node.js
+PHP Basic
 
---GO lang
+--Sample project to use and make usecases for study
+
+--PHP OOP
+
+--PHP 7
+
+--Laravel toure!!! laracast and -- laravel basic pluralsight
+
+--DATABASE and SQL 
+
+
+--Testing
+
+
+------------------ServerSide ADMINISTRATOR----------------------------------
+--Ducker
+
+
+
+
+
+-----------------------------Mobile-----------------------------------------
+
+
+
 
 
 
