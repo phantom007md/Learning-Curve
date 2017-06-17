@@ -51,6 +51,8 @@ Basic JavaScript
 
 --JS CONCEPTS IN DEPTH --object prototypes context clusure and ...
 
+--Functional Programings
+
 -ES6 (babel)
 
 Babel
@@ -61,6 +63,8 @@ CSS Tools
 	SASS
 	FrameWork Semantic
 	Responsive Design
+
+--JS best practices
 
 --YEOMAN
 
@@ -87,9 +91,11 @@ Bower (package management)
 
 PHP Basic
 
---Sample project to use and make usecases for study
+--SPOT
 
 --PHP OOP
+
+--SPOT
 
 --PHP 7
 
