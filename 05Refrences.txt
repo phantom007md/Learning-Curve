@@ -23,3 +23,6 @@ phpdoc.org
 
 advanced typescript types
 https://www.typescriptlang.org/docs/handbook/advanced-types.html
+
+database normalization:
+http://www.quepublishing.com/articles/article.aspx?p=27785&seqNum=3
