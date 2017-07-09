@@ -9,14 +9,30 @@ the same time.
 =>Topic is the Basic most important things i need to start working and making things happen!
 =>profassion comes with work and practice and needing something not reading what u may need! cuz u dont!!
 
-Topic --> Video --> Sample Projects --> Articles --> FrameWork --> Real Work --> Articles --> Side Topics.
+-- Search for Hot Best topics for your skill-->
+-- Learn the Basics -->
+-- Do sample projects or real work and larn Pro stuff in the way coding 
+   (you know what u need because you have done searrches!!!) -->
 
-------------------Tooling---------------------------------------------------
---Vim mastery
 
---sublime Mastery
+------------------BackEnd---------------------------------------------------
 
---phpstorm mastery
+PHP Basic
+
+PHP OOP
+
+--CRUD Operation
+
+--PHP 7
+
+--Laravel toure!!! laracast and -- laravel basic pluralsight
+
+--DATABASE and SQL
+
+--Testing
+
+
+
 ------------------Generic---------------------------------------------------
 
 Basic Terminal usage.
@@ -34,6 +50,8 @@ Basic Terminal usage.
 --RESTful Web Services / GET POST PUT DELETE request.
 
 --MVC
+
+
 
 ------------------Basic FrontEnd--------------------------------------------
 
@@ -65,7 +83,7 @@ CSS Tools
 	FrameWork Semantic
 	Responsive Design
 
---JS best practices
+JS best practices
 
 --YEOMAN
 
@@ -88,24 +106,15 @@ Bower (package management)
 	Mocha
 	Jasmine
 
-------------------BackEnd---------------------------------------------------
-
-PHP Basic
-
---SPOT
-
---PHP OOP
-
---SPOT
-
---PHP 7
-
---Laravel toure!!! laracast and -- laravel basic pluralsight
-
---DATABASE and SQL 
 
 
---Testing
+------------------Tooling---------------------------------------------------
+--Vim mastery
+
+--sublime Mastery
+
+--phpstorm mastery
+
 
 
 ------------------ServerSide ADMINISTRATOR----------------------------------

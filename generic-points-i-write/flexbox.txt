@@ -1,0 +1,2 @@
+flex container will be full width and flex items will stretch verticaly
+inline-flex container will be as much width as it needs and flex items will stretch verticaly
