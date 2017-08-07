@@ -10,79 +10,7 @@ Main Subjects
 
 
 
--------------------------HTML-----------------------------
-PUG
-	mixin
 
---Emmet
-
-
-
--------------------------CSS------------------------------
-CSS units
---CSS possitioning.
-pseudo elements
-Counters
---Tooltips
-
-
-
----------------------JavaScript---------------------------
-
---Modular Programings
-
---Design Patterns JS
-
-
-
------------------------Routing----------------------------
-html5 browser history
-
-window on hash change.
-
-
--------------------------React----------------------------
-
---React 
-	--Flux --Redux 
-
---react routing
-
---react validations
-
---map set and WeakSet and ... data structure.
-
---get and set functions in properties.
-
---react svg system
-https://css-tricks.com/creating-svg-icon-system-react/
-
-------------------------------------------
-
---JS dirty but interesting ways to do things.
-
---Rest and Spread Operators.
-
---String methods
---Array methods  arr.reduce()  arr.map()  arr.find()  arr.filter()
-
-
---------------------------GIT-----------------------------
---Make a basic knowledge summary.
--Gather practical git commands.
-
-
-
--------------------------Generic--------------------------
---Commenting best practices
---Expandig ur utill any ways
---What is IDE
-https://en.wikipedia.org/wiki/Integrated_development_environment
-
-
---------------------------NODE----------------------------
---express --nosqldb  --myownframework
-------------------------------------------
 
 
 

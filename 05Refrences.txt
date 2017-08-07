@@ -1,6 +1,8 @@
 Refrences for some informations i need to know.
 -----------------------------------------------
 
+this should go on bookmarking websites.
+
 js methods index:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index#D
 

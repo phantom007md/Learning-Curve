@@ -29,13 +29,35 @@ PHP OOP
 
 --CRUD Operation
 
+--MVC
+
 --PHP 7
 
 --Laravel toure!!! laracast and -- laravel basic pluralsight
 
---DATABASE and SQL
+DATABASE and SQL
 
 --Testing
+
+
+
+
+------------------REACT-----------------------------------------------------
+
+
+--React 
+	--Flux --Redux 
+
+--react routing
+
+--react validations
+
+--map set and WeakSet and ... data structure.
+
+--get and set functions in properties.
+
+--react svg system
+https://css-tricks.com/creating-svg-icon-system-react/
 
 
 
@@ -71,6 +93,10 @@ Basic JavaScript
 
 --------------------Pro FrontEnd--------------------------------------------
 
+--Modular Programings
+
+--Design Patterns JS
+
 --Javascript Best Practices
 
 --Documentation Best Practices
@@ -78,6 +104,8 @@ Basic JavaScript
 --JS CONCEPTS IN DEPTH --object prototypes context clusure and ...
 
 --Functional Programings
+
+--JS dirty but interesting ways to do things.
 
 -ES6 (babel)
 
