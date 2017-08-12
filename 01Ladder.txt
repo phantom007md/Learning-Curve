@@ -27,7 +27,9 @@ PHP Basic
 
 PHP OOP
 
---CRUD Operation
+CRUD Operation
+
+User Authentication
 
 --MVC
 
