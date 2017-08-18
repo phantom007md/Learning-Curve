@@ -1,0 +1,51 @@
+php.ini
+----------------
+error_reporting: Set the error reporting level. The default value is: “E_ALL & ~E_NOTICE,” meaning this this would should all error levels except E_NOTICE. For a development server you probably want to turn everything on by just using E_ALL.
+display_errors: Set it to “ON” (default is “OFF”)if errors are to be printed to the screen.
+log_errors: This indicates whether or not error logging should be done; default value is “on.”
+error_log string: Sets the name of the file where script errors should be logged
+
+
+.htaccess File Settings
+----------------
+php_flag display_startup_errors on
+php_flag display_errors on
+php_value error_reporting -1
+php_flag html_errors on
+
+
+in the php file its self with these functions!
+----------------
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+ini_set("html_errors", 1);
+
+
+--------------------------------------------log errors--------------------------------------------
+
+Settings for Your PHP File
+Open logging.php. At the top of the file we have some log options using the ini_set function:
+-------------------
+ini_set("log_errors", 1);
+ini_set("error_log", "php-error.txt");
+
+
+in .htaccess file we can log the parse errors as well cuz with the set_ini() function we can log the parse errors 
+if we cant parese the file!!
+Settings for an .htaccess File
+--------------------
+# log errors
+php_value log_errors 1
+
+# log file for errors
+php_value error_log php-error.txt
+
+
+
+Settings for the php.ini File
+--------------------
+Replace the following path with the full path your log file.
+
+log_errors = On
+error_log = "/Applications/MAMP/htdocs/php-error.txt"
+

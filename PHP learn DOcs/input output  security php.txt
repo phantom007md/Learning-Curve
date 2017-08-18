@@ -1,0 +1,5 @@
+htmlspecialcharacters()
+
+filter_input_sanatized
+
+urlincode(htmlspecialcharacters($search))

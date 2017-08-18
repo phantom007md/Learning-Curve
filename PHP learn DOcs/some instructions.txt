@@ -1,0 +1,2 @@
+driver is a peace of software that connect one thing to another.
+PDO mysql driver connect php to mysql datebase.

@@ -17,7 +17,7 @@ the same time.
 
 ------------------Master Topics---------------------------------------------
 
-PHP BASIC 
+PHP BASIC
 
 REACT
 
@@ -25,23 +25,26 @@ REACT
 
 PHP Basic
 
-PHP OOP
+DATABASE and SQL Basic
 
 CRUD Operation
 
-User Authentication
+package manager composer.
 
---MVC
+
+MVC(sample course) articles and preciples.
+
+--php best practice
+
+--php pdo
+
+--Laravel toure!!! laracast.
 
 --PHP 7
 
---Laravel toure!!! laracast and -- laravel basic pluralsight
-
-DATABASE and SQL
+--PHP OOP
 
 --Testing
-
-
 
 
 ------------------REACT-----------------------------------------------------

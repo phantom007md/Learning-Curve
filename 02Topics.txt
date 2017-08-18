@@ -4,9 +4,7 @@ Main Subjects
 
 
 -------------------------PHP------------------------------
-query vs prepare
 
-why query doesnt need fetch?
 
 
 
