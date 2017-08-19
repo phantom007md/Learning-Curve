@@ -31,7 +31,6 @@ CRUD Operation
 
 package manager composer.
 
-
 MVC(sample course) articles and preciples.
 
 --php best practice
@@ -40,9 +39,11 @@ MVC(sample course) articles and preciples.
 
 --Laravel toure!!! laracast.
 
+--PHP OOP
+
 --PHP 7
 
---PHP OOP
+--composer deep learning
 
 --Testing
 
