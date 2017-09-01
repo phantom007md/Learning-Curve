@@ -15,11 +15,14 @@ the same time.
    (you know what u need because you have done searrches!!!) -->
 
 
-------------------Master Topics---------------------------------------------
+------------------Genetic Topics---------------------------------------------
 
-PHP BASIC
+HTTP underestanding
 
-REACT
+REST API underestanding (rest , api)
+
+console fundation
+
 
 ------------------BackEnd---------------------------------------------------
 
@@ -33,15 +36,23 @@ package manager composer.
 
 MVC(sample course) articles and preciples.
 
---php best practice
+php best practice
 
---php pdo
+php pdo
+
+--Coding like a pro with oop(learn how to make packages)
+
+--follow up the rules of psr 1 2 3 and code snifer for better coding
+
+--grasp new ideas and skills from frameworks and packages to be pro.
 
 --Laravel toure!!! laracast.
 
 --PHP OOP
 
 --PHP 7
+
+--better php coding with testing and debug mode.
 
 --composer deep learning
 
