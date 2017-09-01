@@ -40,6 +40,10 @@ php best practice
 
 php pdo
 
+--JWR
+
+HASH b cript MCF modular cript format?
+
 --Coding like a pro with oop(learn how to make packages)
 
 --follow up the rules of psr 1 2 3 and code snifer for better coding
