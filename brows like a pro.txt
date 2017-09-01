@@ -1,0 +1,61 @@
+close the tree view and brows with ctr p 
+brows by symbols
+
+--mix ctrl p and @ for brows symbol in a file!!.  
+
+--ctrl shift r  brows symbol in project
+
+-------------------
+ctrl alt n 
+
+:newfile.php  -> insert new file in curr directory
+
+-----------------
+pay attention to what u are doing over and over and automate that quickly.
+make snippets for it
+
+
+projectmanager to add and open projects
+project-edit
+	mutipath accepted
+"folder_exclude_patterns": ["node_modules"] => no search result eather perfect!!
+
+----------------------------------------------------------------------------------------------------------------
+
+
+phpstorm
+
+ctrl p  browse file
+
+ctrl r  brows symbol
+
+ctrl shift r  file structure
+
+ctrl shift o open directory
+
+alt n new file
+
+alt shit o jump to navigation bar.
+
+ctrl shift enter complete statement
+
+ctrl enter split line
+
+ctrl alt enter start new line before
+
+shift enter start new line
+
+keep it simple
+
+try evoide repeating your self. creating snippets
+
+dont touch the mouse and try to do as simple as possible with the keyboard.
+
+
+
+
+
+
+
+
+
