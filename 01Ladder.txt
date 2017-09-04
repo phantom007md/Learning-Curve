@@ -40,9 +40,11 @@ php best practice
 
 php pdo
 
---JWR
+--JWT
 
-HASH b cript MCF modular cript format?
+--MCF modular cript format?
+
+--hash password with bcript . other algorythms?
 
 --Coding like a pro with oop(learn how to make packages)
 
