@@ -36,9 +36,10 @@ package manager composer.
 
 MVC(sample course) articles and preciples.
 
-php best practice
-
 php pdo
+
+--grasp php best practice
+
 
 --JWT
 
@@ -50,13 +51,15 @@ php pdo
 
 --follow up the rules of psr 1 2 3 and code snifer for better coding
 
---grasp new ideas and skills from frameworks and packages to be pro.
+--design interface treehouse
 
 --Laravel toure!!! laracast.
 
 --PHP OOP
 
 --PHP 7
+
+--grasp new ideas and skills from frameworks and packages to be pro.
 
 --better php coding with testing and debug mode.
 
