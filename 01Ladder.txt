@@ -38,20 +38,21 @@ MVC(sample course) articles and preciples.
 
 php pdo
 
---grasp php best practice
+Avayeghoghnus Project
 
+******* time of just do something is done and now i know best of both world which
+	what is good in doing something and what is benefitial to dig deep and learn
+	while doing something and knowing what worth to dig deep for it is the important
+	-> the programing aspects and knowledge its self is important
+	   features and frameworks will get change and should not be the main aspect. 
 
---JWT
+-grasp php best practice
+
+-JWT
 
 --MCF modular cript format?
 
 --hash password with bcript . other algorythms?
-
---Coding like a pro with oop(learn how to make packages)
-
---follow up the rules of psr 1 2 3 and code snifer for better coding
-
---design interface treehouse
 
 --Laravel toure!!! laracast.
 
@@ -64,6 +65,10 @@ php pdo
 --better php coding with testing and debug mode.
 
 --composer deep learning
+
+--follow up the rules of psr 1 2 3 and code snifer for better coding
+
+--design interface treehouse
 
 --Testing
 
